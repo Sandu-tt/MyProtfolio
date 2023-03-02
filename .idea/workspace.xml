@@ -39,7 +39,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Layered Project/Layered Project/DayCare" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -57,6 +57,8 @@
       <workItem from="1675912647019" duration="2188000" />
       <workItem from="1675933538629" duration="29000" />
       <workItem from="1676023689006" duration="579000" />
+      <workItem from="1677736389659" duration="15000" />
+      <workItem from="1677736516898" duration="27000" />
     </task>
     <servers />
   </component>
