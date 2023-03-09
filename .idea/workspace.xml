@@ -39,8 +39,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkingZone\MyProtfolio" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,7 +63,10 @@
       <workItem from="1675933538629" duration="29000" />
       <workItem from="1676023689006" duration="579000" />
       <workItem from="1677736389659" duration="15000" />
-      <workItem from="1677736516898" duration="27000" />
+      <workItem from="1677736516898" duration="654000" />
+      <workItem from="1677751075620" duration="149000" />
+      <workItem from="1677900113741" duration="120000" />
+      <workItem from="1678331324593" duration="2227000" />
     </task>
     <servers />
   </component>
