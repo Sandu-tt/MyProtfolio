@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89d38a64-c342-4085-96c5-145ae1a0c29d" name="Default Changelist" comment="updated with html">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyProtfolio.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2LAYpy1xMazHPuDjVyK1FF9VEW1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MyProtfolio.iml" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.42318308" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WorkingZone\MyProtfolio\assets\img" />
+      <recent name="D:\WorkingZone\MyProtfolio" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WorkingZone\MyProtfolio\.idea" />
+      <recent name="D:\WorkingZone\MyProtfolio\.idea\.idea" />
+      <recent name="D:\WorkingZone\MyProtfolio\assets\pdf" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89d38a64-c342-4085-96c5-145ae1a0c29d" name="Default Changelist" comment="" />
+      <created>1675315540632</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675315540632</updated>
+      <workItem from="1675315542326" duration="7905000" />
+      <workItem from="1675482275834" duration="25000" />
+      <workItem from="1675876420723" duration="850000" />
+      <workItem from="1675911688657" duration="90000" />
+      <workItem from="1675912647019" duration="2188000" />
+      <workItem from="1675933538629" duration="29000" />
+      <workItem from="1676023689006" duration="579000" />
+      <workItem from="1677736389659" duration="15000" />
+      <workItem from="1677736516898" duration="654000" />
+      <workItem from="1677751075620" duration="149000" />
+      <workItem from="1677900113741" duration="120000" />
+      <workItem from="1678331324593" duration="2227000" />
+      <workItem from="1678339231885" duration="751000" />
+      <workItem from="1678339999861" duration="360000" />
+      <workItem from="1678340378782" duration="176000" />
+      <workItem from="1678340582763" duration="3408000" />
+      <workItem from="1678348342843" duration="766000" />
+      <workItem from="1678349398483" duration="28000" />
+      <workItem from="1678355826673" duration="3486000" />
+      <workItem from="1678504717576" duration="64000" />
+      <workItem from="1678906013340" duration="429000" />
+      <workItem from="1678937385540" duration="4445000" />
+      <workItem from="1678955149252" duration="630000" />
+      <workItem from="1678956036845" duration="295000" />
+      <workItem from="1678956343741" duration="1503000" />
+    </task>
+    <task id="LOCAL-00001" summary="updated">
+      <created>1678339511458</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1678339511458</updated>
+    </task>
+    <task id="LOCAL-00002" summary="updated">
+      <created>1678339898303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1678339898303</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated">
+      <created>1678340966431</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678340966431</updated>
+    </task>
+    <task id="LOCAL-00004" summary="updated with html">
+      <created>1678956976615</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678956976615</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated" />
+    <MESSAGE value="updated with html" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated with html" />
+  </component>
+</project>
