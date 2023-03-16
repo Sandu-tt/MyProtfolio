@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="89d38a64-c342-4085-96c5-145ae1a0c29d" name="Default Changelist" comment="updated with html">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MyProtfolio.iml" afterDir="false" />
-    </list>
+    <list default="true" id="89d38a64-c342-4085-96c5-145ae1a0c29d" name="Default Changelist" comment="updated with html" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,6 +105,7 @@
       <workItem from="1678955149252" duration="630000" />
       <workItem from="1678956036845" duration="295000" />
       <workItem from="1678956343741" duration="1503000" />
+      <workItem from="1678957869045" duration="451000" />
     </task>
     <task id="LOCAL-00001" summary="updated">
       <created>1678339511458</created>
