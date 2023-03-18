@@ -1,13 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="" />
+    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/cshape.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/hi.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/js.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/lap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/pos.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/project.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/python.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/sql.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/uidesign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/webdesign.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/webdevelop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/ai_image2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/gifimage.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/laptop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/photo_2023-03-16_09-56-18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/photo_2023-03-16_09-56-31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/s.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/studentss.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2N5n8HXoc85yrj4fkGMLIVMsNVL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -15,22 +46,17 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProfile\assets\img" />
+    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="" />
@@ -38,7 +64,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678962649692</updated>
+      <workItem from="1678962651049" duration="241000" />
+      <workItem from="1678978963644" duration="145000" />
+      <workItem from="1678982337397" duration="11000" />
+      <workItem from="1679023888087" duration="12232000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
