@@ -1,32 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/cshape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/css.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/hi.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/html.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/java.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/js.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/lap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/pos.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/project.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/ps.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/python.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/sql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/uidesign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/webdesign.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/webdevelop.png" afterDir="false" />
+    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="updated protfolio">
+      <change afterPath="$PROJECT_DIR$/assets/img/Linkedin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/github.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/instagram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/twitter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/web.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/ai_image2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/gifimage.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/laptop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/photo_2023-03-16_09-56-18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/photo_2023-03-16_09-56-31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/s.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/studentss.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +30,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../swe p/project java/coursework.java" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -68,7 +49,21 @@
       <workItem from="1678978963644" duration="145000" />
       <workItem from="1678982337397" duration="11000" />
       <workItem from="1679023888087" duration="12232000" />
+      <workItem from="1679173087994" duration="394000" />
+      <workItem from="1679332815908" duration="15000" />
+      <workItem from="1679406946137" duration="177000" />
+      <workItem from="1679425724691" duration="448000" />
+      <workItem from="1679506044218" duration="3166000" />
+      <workItem from="1679516917556" duration="519000" />
     </task>
+    <task id="LOCAL-00001" summary="updated protfolio">
+      <created>1679173137984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679173137984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,5 +79,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updated protfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated protfolio" />
   </component>
 </project>
