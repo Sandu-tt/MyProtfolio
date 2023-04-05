@@ -2,18 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="updated protfolio">
-      <change afterPath="$PROJECT_DIR$/assets/img/Linkedin.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/instagram.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/twitter.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/web.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/css/normalize.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_01/case_01.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,15 +30,18 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../swe p/project java/coursework.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProfile\assets\css" />
       <recent name="D:\MyProfile\assets\img" />
     </key>
   </component>
@@ -55,6 +63,10 @@
       <workItem from="1679425724691" duration="448000" />
       <workItem from="1679506044218" duration="3166000" />
       <workItem from="1679516917556" duration="519000" />
+      <workItem from="1679541811722" duration="278000" />
+      <workItem from="1679542110045" duration="350000" />
+      <workItem from="1679549308623" duration="182000" />
+      <workItem from="1680664444299" duration="3215000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
@@ -63,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679173137984</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated protfolio">
+      <created>1679541926423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679541926423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
