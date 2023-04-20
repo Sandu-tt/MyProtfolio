@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="add  css assignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/css/case_02/case_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/css/case_02/case_02.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +28,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="module" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -78,7 +80,7 @@
       <workItem from="1680775275071" duration="253000" />
       <workItem from="1681960357257" duration="3888000" />
       <workItem from="1681966045151" duration="6768000" />
-      <workItem from="1681977277041" duration="2371000" />
+      <workItem from="1681977277041" duration="4506000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
@@ -115,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681971998122</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add  css assignment">
+      <created>1681979868121</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681979868121</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,187 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/fontawesome/fontawesome-free-6.4.0-web/css/all.css">
     <title>Assignment 05</title>
-
     <style>
-        nav {
-            width: 100%;
-            height: auto;
-            border-bottom: 2px solid black;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
 
+        header {
+            background-color: white;
+            box-shadow: 1px 2px 2px 1px black;
+            position: relative;
         }
 
-        .logo {
-            margin-left: 15px;
+        header > img {
+            height: 100px;
+            margin: 20px;
         }
 
-        .nav-text {
-            display: flex;
-            margin-right: 25px;
+        header > nav > ul {
+            font-size: 20px;
+            position: absolute;
+            top: 30px;
+            right: 50px;
         }
 
-        .nav-text>div>a {
-            padding-left: 20px;
+        header > nav > ul > li {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        header > nav > ul > li > a {
             text-decoration: none;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
+        header > nav > ul > li > i {
+            color: steelblue;
+            font-size: 20px;
         }
 
-        section {
-            width: 100%;
+        main {
             position: relative;
         }
 
-        .side-bar {
-            width: 250px;
-            height: 1250px;
+        main > nav {
+            width: 300px;
             background-color: purple;
-        }
-
-        .main-content {
-            width: calc(100% - 250px);
-            height: auto;
-            margin-left: 250px;
-
             position: absolute;
             top: 0;
-
+            bottom: 0;
+            left: 0;
         }
 
-        .main-root {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            max-width: 100%;
-
+        main > nav > ul {
+            list-style-type: none;
         }
 
-        .item>img {
-            width: 50%;
-
+        main > nav > ul > li {
+            font-size: 20px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            color: white;
         }
 
-        .content-text {
-            padding: 15px;
+        main > section {
+            margin-left: 300px;
+            padding: 10px;
+            position: relative;
         }
 
-        .content-text>p {
-            font-size: 1.5rem;
-            margin-bottom: 25px;
+        main > section > section {
+            height: 300px;
+            position: relative;
         }
 
+        main > section > section > div {
+            width: calc(100% / 3);
+            height: 100%;
+            border: 1px solid green;
+            position: absolute;
+        }
+
+        main > section > section > div:nth-child(1) {
+            top: 0;
+            left: 0;
+        }
+
+        main > section > section > div:nth-child(2) {
+            top: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        main > section > section > div:nth-child(3) {
+            top: 0;
+            right: 0;
+        }
 
         footer {
-            width: 100%;
-            height: 50px;
-            color: white;
+            height: 80px;
             background-color: gray;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-
         }
 
-        .side-menu>li {
-
-            padding-left: 45px;
-            padding-top: 25px;
-            line-height: 1;
-            font-family: 'Courier New', Courier, monospace;
-            font-weight: 600;
+        footer > p {
+            font-weight: bold;
+            text-align: center;
             color: white;
+            padding-top: 20px;
+            margin-top: -2px;
         }
-
-        footer>div>p {
-            color: white;
-        }
-
-       /* footer {
-
-            position: relative;
-            bottom: 0;
-        }
-*/
-
 
     </style>
+
+
 </head>
-
 <body>
-    <header>
-        <nav>
-            <div class="logo">
-                <img src="assets/ijse@1x.png" >
 
-            </div>
-            <div class="nav-text">
-                <div><a href="#"><i class="fa-solid fa-house"></i> Home</a></div>
-                <div><a href="#"><i class="fa-solid fa-server"></i> Service</a></div>
-                <div><a href="#"><i class="fa-solid fa-address-book"></i> Contact</a></div>
-                <div><a href="#"><i class="fa-solid fa-align-justify"></i> About</a></div>
-            </div>
+<header>
+    <img src="assets/ijse@1x.png">
+    <nav>
+        <ul>
+            <li><i class="fa-sharp fa-solid fa-house"></i><a href="#">Home</a></li>
+            <li><i class="fa-solid fa-globe"></i> <a href="#">Service</a></li>
+            <li><i class="fa-solid fa-phone"></i> <a href="#">Contact</a></li>
+            <li><i class="fa-sharp fa-solid fa-circle-info"></i> <a href="#">About us</a></li>
+        </ul>
+    </nav>
+</header>
 
-        </nav>
-    </header>
+<main>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Service</li>
+            <li>Contact</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
     <section>
-        <div class="side-bar">
-            <ul class="side-menu">
-                <li> <i class="fa-solid fa-house"></i> Home </li>
-                <li><i class="fa-solid fa-address-book"></i> Service</li>
-                <li><i class="fa-solid fa-address-book"></i> Contact</li>
-                <li><i class="fa-solid fa-align-justify"></i> About</li>
-            </ul>
-        </div>
-        <div class="main-content">
-            <div class="main-root">
 
-                <div class="item"><img src="assets/seahourse.png" alt=""></div>
-                <div class="item"><img src="assets/seahourse.png" alt=""></div>
-                <div class="item"><img src="assets/seahourse.png" alt=""></div>
+        <section>
+
+            <div>
+                <img src="assets/item.gif" alt="logo">
             </div>
-            <div class="content-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
-                    enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
-                    unde dolorum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
-                    enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
-                    unde dolorum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
-                    enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
-                    unde dolorum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
-                    enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
-                    unde dolorum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
-                    enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
-                    unde dolorum.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis tenetur, eum optio dignissimos officia
-                    enim hic voluptatibus facere, provident ab earum inventore quia, qui perferendis numquam. Magni iure
-                    unde dolorum.</p>
-
+            <div>
+                <img src="assets/item.gif" alt="logo">
+            </div>
+            <div>
+                <img src="assets/item.gif" alt="logo">
             </div>
 
+        </section>
 
-        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium alias eum ex maxime
+            quibusdam
+            unde voluptates? Asperiores assumenda distinctio iusto molestiae nisi, numquam obcaecati pariatur sed sit
+            tenetur!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam aperiam aspernatur consectetur
+            doloribus, et eveniet fuga fugiat fugit hic ipsum iste nobis, officia omnis placeat quidem rem repellat
+            tempora.</p>
+        <p>Ab accusantium, aspernatur beatae dignissimos dolores earum esse fuga fugit harum hic iste itaque laborum
+            magnam nesciunt nihil odio quidem quo repellat repudiandae sapiente similique sit tempora vel veritatis
+            vitae?</p>
+        <p>Aperiam architecto culpa distinctio dolore ducimus earum fugiat, ipsum modi molestiae necessitatibus nihil,
+            odio odit quidem reiciendis repudiandae, rerum tempore unde voluptatibus? Fugit, labore, quibusdam.
+            Accusamus at explicabo minus tempora.</p>
+        <p>Autem facilis minima officiis praesentium quibusdam. A assumenda cum libero nulla, quia velit veniam!
+            Accusantium adipisci, assumenda dolorem doloribus ducimus iure minus molestias nemo nesciunt, pariatur
+            reiciendis reprehenderit voluptatibus voluptatum?</p>
+        <p>Architecto excepturi iusto reprehenderit. Ab accusantium aliquam at blanditiis consectetur dolor error, est
+            excepturi harum illo maiores nemo nisi odio pariatur porro, quidem quo quod recusandae tempora ut vero
+            voluptas.</p>
+
+        <section>
+
+            <div>
+                <img src="assets/item.gif" alt="logo">
+            </div>
+            <div>
+                <img src="assets/item.gif" alt="logo">
+            </div>
+            <div>
+                <img src="assets/item.gif" alt="logo">
+            </div>
+
+        </section>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus accusantium alias eum ex maxime
+            quibusdam
+            unde voluptates? Asperiores assumenda distinctio iusto molestiae nisi, numquam obcaecati pariatur sed sit
+            tenetur!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam aperiam aspernatur consectetur
+            doloribus, et eveniet fuga fugiat fugit hic ipsum iste nobis, officia omnis placeat quidem rem repellat
+            tempora.</p>
+        <p>Ab accusantium, aspernatur beatae dignissimos dolores earum esse fuga fugit harum hic iste itaque laborum
+            magnam nesciunt nihil odio quidem quo repellat repudiandae sapiente similique sit tempora vel veritatis
+            vitae?</p>
+        <p>Aperiam architecto culpa distinctio dolore ducimus earum fugiat, ipsum modi molestiae necessitatibus nihil,
+            odio odit quidem reiciendis repudiandae, rerum tempore unde voluptatibus? Fugit, labore, quibusdam.
+            Accusamus at explicabo minus tempora.</p>
+        <p>Autem facilis minima officiis praesentium quibusdam. A assumenda cum libero nulla, quia velit veniam!
+            Accusantium adipisci, assumenda dolorem doloribus ducimus iure minus molestias nemo nesciunt, pariatur
+            reiciendis reprehenderit voluptatibus voluptatum?</p>
+        <p>Architecto excepturi iusto reprehenderit. Ab accusantium aliquam at blanditiis consectetur dolor error, est
+            excepturi harum illo maiores nemo nisi odio pariatur porro, quidem quo quod recusandae tempora ut vero
+            voluptas.</p>
+
     </section>
 
-   <footer>
+</main>
 
-       <p>
-           Develpoed by ijse
-       </p>
-   </footer>
+<footer>
+    <p>Developed by IJSE</p>
+</footer>
+
 </body>
-
 </html>
