@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="add  css assignment">
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_03/case_03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_04/case_04.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/css/case_02/case_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/css/case_02/case_02.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +36,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment/css/case_02/assets/fontawesome" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ijseH/case_02.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -80,7 +81,9 @@
       <workItem from="1680775275071" duration="253000" />
       <workItem from="1681960357257" duration="3888000" />
       <workItem from="1681966045151" duration="6768000" />
-      <workItem from="1681977277041" duration="4506000" />
+      <workItem from="1681977277041" duration="5595000" />
+      <workItem from="1681984026793" duration="295000" />
+      <workItem from="1682529621915" duration="3193000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
