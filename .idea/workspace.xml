@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done  css assignment03 and 04">
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/avenue-815297__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/church-1993645__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/forest-3119826__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/istockphoto-486121005-170667a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/mountains-100367__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/railroad-163518__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/road-1072821__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/sunset-1373171__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/sunset-3325080__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/thunderstorm-3440450__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/tree-736885__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/tree-832079__340.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_05.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_06.html" afterDir="false" />
+    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done  css assignment05">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/css/case_02/case_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/css/case_02/case_02.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_06.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_06.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +90,7 @@
       <workItem from="1682662632705" duration="71000" />
       <workItem from="1682662750179" duration="693000" />
       <workItem from="1682670868257" duration="795000" />
-      <workItem from="1682675019012" duration="2430000" />
+      <workItem from="1682675019012" duration="3109000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
@@ -156,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682533122322</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="done  css assignment05">
+      <created>1682677773649</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682677773649</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +170,7 @@
     <MESSAGE value="updated protfolio" />
     <MESSAGE value="add  css assignment" />
     <MESSAGE value="done  css assignment03 and 04" />
-    <option name="LAST_COMMIT_MESSAGE" value="done  css assignment03 and 04" />
+    <MESSAGE value="done  css assignment05" />
+    <option name="LAST_COMMIT_MESSAGE" value="done  css assignment05" />
   </component>
 </project>
