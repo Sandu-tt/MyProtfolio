@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="add  css assignment">
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_03/case_03.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/css/case_04/case_04.html" afterDir="false" />
+    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done  css assignment03 and 04">
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/avenue-815297__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/church-1993645__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/forest-3119826__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/istockphoto-486121005-170667a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/mountains-100367__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/railroad-163518__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/road-1072821__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/sunset-1373171__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/sunset-3325080__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/thunderstorm-3440450__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/tree-736885__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets/tree-832079__340.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_06.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/css/case_02/case_02.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/css/case_02/case_02.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,19 +50,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ijseH/case_02.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/assets" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProfile\assignment\css\case_05 &amp; case_06\assets" />
       <recent name="D:\MyProfile\assignment\css\case_02\assets\fontawesome" />
       <recent name="D:\MyProfile\assignment\css\case_02\assets" />
       <recent name="D:\MyProfile\assignment\css\case_02" />
       <recent name="D:\MyProfile\assets\img" />
-      <recent name="D:\MyProfile\assets\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProfile\assignment\css\case_05 &amp; case_06\assets" />
       <recent name="D:\MyProfile\assets\fontawesome" />
       <recent name="D:\MyProfile\assets\css" />
       <recent name="D:\MyProfile\assignment\css\case_02\assets\fontawesome" />
@@ -83,7 +98,14 @@
       <workItem from="1681966045151" duration="6768000" />
       <workItem from="1681977277041" duration="5595000" />
       <workItem from="1681984026793" duration="295000" />
-      <workItem from="1682529621915" duration="3193000" />
+      <workItem from="1682529621915" duration="4380000" />
+      <workItem from="1682587662468" duration="532000" />
+      <workItem from="1682589941528" duration="917000" />
+      <workItem from="1682651777977" duration="1685000" />
+      <workItem from="1682662632705" duration="71000" />
+      <workItem from="1682662750179" duration="693000" />
+      <workItem from="1682670868257" duration="795000" />
+      <workItem from="1682675019012" duration="2430000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
@@ -127,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681979868121</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="done  css assignment03 and 04">
+      <created>1682533122322</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682533122322</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +177,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated protfolio" />
     <MESSAGE value="add  css assignment" />
-    <option name="LAST_COMMIT_MESSAGE" value="add  css assignment" />
+    <MESSAGE value="done  css assignment03 and 04" />
+    <option name="LAST_COMMIT_MESSAGE" value="done  css assignment03 and 04" />
   </component>
 </project>
