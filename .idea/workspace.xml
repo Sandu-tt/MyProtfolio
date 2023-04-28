@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done  css assignment05">
+    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done  css assignment06">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_05.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_05.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_06.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/css/case_05 &amp; case_06/case_06.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,7 @@
       <workItem from="1682662632705" duration="71000" />
       <workItem from="1682662750179" duration="693000" />
       <workItem from="1682670868257" duration="795000" />
-      <workItem from="1682675019012" duration="3109000" />
+      <workItem from="1682675019012" duration="3868000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
@@ -148,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682677773649</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="done  css assignment06">
+      <created>1682678284748</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682678284748</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +179,7 @@
     <MESSAGE value="add  css assignment" />
     <MESSAGE value="done  css assignment03 and 04" />
     <MESSAGE value="done  css assignment05" />
-    <option name="LAST_COMMIT_MESSAGE" value="done  css assignment05" />
+    <MESSAGE value="done  css assignment06" />
+    <option name="LAST_COMMIT_MESSAGE" value="done  css assignment06" />
   </component>
 </project>
