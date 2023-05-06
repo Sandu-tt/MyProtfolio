@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done CSS Transitions Case 01">
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment/animations/case_04/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/transitions/case_one/case_one.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/transitions/case_one/case_one.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +100,7 @@
       <workItem from="1683090880772" duration="1119000" />
       <workItem from="1683100598929" duration="1712000" />
       <workItem from="1683104006560" duration="6467000" />
-      <workItem from="1683394174348" duration="3319000" />
+      <workItem from="1683394174348" duration="4428000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
