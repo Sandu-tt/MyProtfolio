@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done CSS Transitions Case 01">
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_05/assets/slide1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_05/assets/slide2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_05/assets/slide3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_05/assets/slide4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_05/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_06/assets/car.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_06/assets/city.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_06/assets/road.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_06/assets/sky.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_06/assets/wheel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/animations/case_06/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment/transitions/case_two/case_two.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/transitions/case_one/case_one.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/transitions/case_one/case_one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment/animations/case_05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/animations/case_05/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +101,7 @@
       <workItem from="1683100598929" duration="1712000" />
       <workItem from="1683104006560" duration="6467000" />
       <workItem from="1683394174348" duration="6055000" />
-      <workItem from="1683445573007" duration="2454000" />
+      <workItem from="1683445573007" duration="4583000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
