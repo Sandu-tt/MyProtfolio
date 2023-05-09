@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done CSS Transitions Case 01">
+      <change afterPath="$PROJECT_DIR$/assets/img/Latest-Web-Design-Trends-and-Standards.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Software-development-skills-to-learn-in-2022.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Whats-the-Difference-Between-UX-Design-vs.-UI-Design_@3x-1-scaled.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment/animations/case_06/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/assignment/animations/case_06/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withoutStyles.html" beforeDir="false" afterPath="$PROJECT_DIR$/withoutStyles.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,15 +40,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment/animations/case_05/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\MyProfile\assets\img" />
       <recent name="D:\MyProfile\assignment\animations\case_05\assets" />
       <recent name="D:\MyProfile\assignment\transitions\case_one\assets\fontawesome" />
-      <recent name="D:\MyProfile\assets\img" />
       <recent name="D:\MyProfile\assignment\css\case_05 &amp; case_06\assets" />
       <recent name="D:\MyProfile\assignment\css\case_02\assets\fontawesome" />
     </key>
@@ -101,7 +106,10 @@
       <workItem from="1683100598929" duration="1712000" />
       <workItem from="1683104006560" duration="6467000" />
       <workItem from="1683394174348" duration="6055000" />
-      <workItem from="1683445573007" duration="6318000" />
+      <workItem from="1683445573007" duration="6562000" />
+      <workItem from="1683536906473" duration="2251000" />
+      <workItem from="1683552565567" duration="576000" />
+      <workItem from="1683617808548" duration="17678000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
