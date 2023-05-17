@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done CSS Transitions Case 01">
-      <change afterPath="$PROJECT_DIR$/assets/img/Latest-Web-Design-Trends-and-Standards.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Software-development-skills-to-learn-in-2022.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Whats-the-Difference-Between-UX-Design-vs.-UI-Design_@3x-1-scaled.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Yellow and Black Modern Minimalist Job Vacancy Poster 1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/ijse.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/schoollogo.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/skills.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withoutStyles.html" beforeDir="false" afterPath="$PROJECT_DIR$/withoutStyles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Latest-Web-Design-Trends-and-Standards.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/webdesign.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Software-development-skills-to-learn-in-2022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/sdevelop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Whats-the-Difference-Between-UX-Design-vs.-UI-Design_@3x-1-scaled.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/ui.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/hi.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/uidesign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/webdesign.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/webdevelop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/withStyles.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,13 +29,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="2N5n8HXoc85yrj4fkGMLIVMsNVL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,7 +54,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../s/MyPortfolio-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -53,11 +67,11 @@
       <recent name="D:\MyProfile\assignment\css\case_02\assets\fontawesome" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProfile\assets\img" />
+      <recent name="D:\MyProfile" />
       <recent name="D:\MyProfile\assignment\css\case_05 &amp; case_06\assets" />
       <recent name="D:\MyProfile\assets\fontawesome" />
       <recent name="D:\MyProfile\assets\css" />
-      <recent name="D:\MyProfile\assignment\css\case_02\assets\fontawesome" />
-      <recent name="D:\MyProfile\assignment\css\case_02\assets" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -109,7 +123,16 @@
       <workItem from="1683445573007" duration="6562000" />
       <workItem from="1683536906473" duration="2251000" />
       <workItem from="1683552565567" duration="576000" />
-      <workItem from="1683617808548" duration="17678000" />
+      <workItem from="1683617808548" duration="20270000" />
+      <workItem from="1683718314754" duration="10711000" />
+      <workItem from="1683752096180" duration="1988000" />
+      <workItem from="1683833305658" duration="798000" />
+      <workItem from="1683858704568" duration="13018000" />
+      <workItem from="1683876812983" duration="1579000" />
+      <workItem from="1683883572137" duration="616000" />
+      <workItem from="1683888773808" duration="27000" />
+      <workItem from="1684072771262" duration="19560000" />
+      <workItem from="1684346049002" duration="5803000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
