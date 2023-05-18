@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;#&#9;withStyles.html">
-      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 013945.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 014215.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 014241.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 014300.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 020856.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Yellow and Black Modern Minimalist Job Vacancy Poster 1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/y&amp;b.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="added oreders file in pos" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -126,7 +116,7 @@
       <workItem from="1684346049002" duration="19881000" />
       <workItem from="1684429426037" duration="626000" />
       <workItem from="1684430060471" duration="305000" />
-      <workItem from="1684430387551" duration="1112000" />
+      <workItem from="1684430387551" duration="1584000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
@@ -212,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684355356722</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added oreders file in pos">
+      <created>1684431597919</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684431597921</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,6 +238,7 @@
     <MESSAGE value="updated protfolio" />
     <MESSAGE value="updated" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;#&#9;withStyles.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;#&#9;withStyles.html" />
+    <MESSAGE value="added oreders file in pos" />
+    <option name="LAST_COMMIT_MESSAGE" value="added oreders file in pos" />
   </component>
 </project>
