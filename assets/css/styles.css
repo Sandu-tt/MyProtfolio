@@ -456,6 +456,10 @@ section-services {
          margin: auto;*/
     }
 
+    .contact{
+        background-image: url("../img/y&b.jpg");
+    }
+
     .contact-image {
         width: 80%;
         height: auto;
@@ -468,23 +472,26 @@ section-services {
         border: #000 2px solid;
         width: 100%;
         flex-direction: row;
-        /*align-items: center;*/
-        position: relative;
+        align-items: center;
+        /*position: relative;*/
 
     }
 
 
-    form#sample {
-        width: 100%;
-        padding: 20px;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        margin: auto;
-    }
-
+    /*form#sample {*/
+    /*    width: 100%;*/
+    /*    padding: 20px;*/
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    bottom: 0;*/
+    /*    left: 0;*/
+    /*    right: 0;*/
+    /*    margin: auto;*/
+    /*}*/
+form {
+    width: 50%;
+    padding: 20px;
+}
     .form-field {
         display: flex;
         flex-direction: column;
@@ -517,6 +524,7 @@ section-services {
 
     .contact-container {
         background-color: transparent;
+        padding-top: 126px;
     }
 
 
