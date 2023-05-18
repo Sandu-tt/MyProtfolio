@@ -1,25 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="done CSS Transitions Case 01">
-      <change afterPath="$PROJECT_DIR$/assets/img/Yellow and Black Modern Minimalist Job Vacancy Poster 1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/ijse.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/schoollogo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/img/skills.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="39a77579-a4f2-4cfe-b66f-d327c734ee6e" name="Default Changelist" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;#&#9;withStyles.html">
+      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 013945.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 014215.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 014241.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 014300.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/img/Screenshot 2023-05-18 020856.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Latest-Web-Design-Trends-and-Standards.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/webdesign.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Software-development-skills-to-learn-in-2022.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/sdevelop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/Whats-the-Difference-Between-UX-Design-vs.-UI-Design_@3x-1-scaled.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/ui.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/hi.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/uidesign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/webdesign.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/webdevelop.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/Yellow and Black Modern Minimalist Job Vacancy Poster 1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/y&amp;b.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/withStyles.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,24 +45,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../s/MyPortfolio-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assignment/CSS-Framework/pos/assets/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MyProfile\assets\img" />
-      <recent name="D:\MyProfile\assignment\animations\case_05\assets" />
-      <recent name="D:\MyProfile\assignment\transitions\case_one\assets\fontawesome" />
-      <recent name="D:\MyProfile\assignment\css\case_05 &amp; case_06\assets" />
-      <recent name="D:\MyProfile\assignment\css\case_02\assets\fontawesome" />
+      <recent name="D:\MyProfile\assignment\CSS-Framework\pos\assets\img" />
+      <recent name="D:\MyProfile\assignment\CSS-Framework\pos" />
+      <recent name="D:\MyProfile\assignment" />
+      <recent name="D:\MyProfile\assignment\css-framework\pos\assets\img" />
+      <recent name="D:\MyProfile\assignment\css-framework\POS\assets\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\MyProfile\assignment\CSS-Framework\pos\pages" />
+      <recent name="D:\MyProfile\assignment\CSS-Framework\pos" />
+      <recent name="D:\MyProfile\assignment\css-framework\POS\assets\img" />
       <recent name="D:\MyProfile\assets\img" />
       <recent name="D:\MyProfile" />
-      <recent name="D:\MyProfile\assignment\css\case_05 &amp; case_06\assets" />
-      <recent name="D:\MyProfile\assets\fontawesome" />
-      <recent name="D:\MyProfile\assets\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -132,7 +123,10 @@
       <workItem from="1683883572137" duration="616000" />
       <workItem from="1683888773808" duration="27000" />
       <workItem from="1684072771262" duration="19560000" />
-      <workItem from="1684346049002" duration="5803000" />
+      <workItem from="1684346049002" duration="19881000" />
+      <workItem from="1684429426037" duration="626000" />
+      <workItem from="1684430060471" duration="305000" />
+      <workItem from="1684430387551" duration="1112000" />
     </task>
     <task id="LOCAL-00001" summary="updated protfolio">
       <created>1679173137984</created>
@@ -204,7 +198,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682678925919</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="updated protfolio">
+      <created>1684355250409</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1684355250409</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;#&#9;withStyles.html">
+      <created>1684355356722</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684355356722</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +231,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="updated protfolio" />
     <MESSAGE value="add  css assignment" />
     <MESSAGE value="done  css assignment03 and 04" />
     <MESSAGE value="done  css assignment05" />
@@ -231,6 +238,9 @@
     <MESSAGE value="done  css assignments" />
     <MESSAGE value="done Transitions Case 01" />
     <MESSAGE value="done CSS Transitions Case 01" />
-    <option name="LAST_COMMIT_MESSAGE" value="done CSS Transitions Case 01" />
+    <MESSAGE value="updated protfolio" />
+    <MESSAGE value="updated" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;#&#9;withStyles.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;index.html&#10;#&#9;withStyles.html" />
   </component>
 </project>
