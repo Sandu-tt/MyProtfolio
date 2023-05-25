@@ -1,6 +1,4 @@
-
-
-    body {
+body {
         display: flex;
         flex-direction: column;
         font-family: Inconsolata, sans-serif;
@@ -154,33 +152,6 @@
     }
 
 
-    @keyframes drop {
-        0% {
-            transform: translate(-50%, -50%) scale(0);
-        }
-        50% {
-            transform: translate(-50%, -50%) scale(1);
-        }
-        100% {
-            transform: translate(-50%, -50%) scale(0);
-        }
-    }
-
-    @keyframes pop-up {
-        0% {
-            opacity: 0;
-            transform: scale(0);
-        }
-        60% {
-            opacity: 1;
-            transform: scale(1.1);
-        }
-        100% {
-            opacity: 1;
-            transform: scale(1);
-        }
-    }
-
 
 
     /* Start Of About Section */
@@ -309,7 +280,7 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        top: 10px;
+        top: 81px;
         left: 50%;
         transform: translate(-50%, 0);
         background-color: #f7d04d;
@@ -326,6 +297,7 @@
     }
 
     .image-container img {
+        padding-top: 89px;
         width: 100%;
         height: auto;
     }
@@ -455,7 +427,75 @@
         font-size: 3vw;
 
     }
+    /*-----------------Assignments----------------------*/
 
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    /*background: skyblue;*/
+    margin-top: 20px;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width:20%;
+    height:300px;
+    /*background: red;*/
+    margin :20px 0px 20px 55px;
+    border:2px solid blue;
+    box-sizing: border-box;
+}
+.container ul li:hover{
+    opacity: 0.2;
+
+}
+
+.container ul li .bottom{
+    width: 100%;
+    height:50px;
+    line-height: 50px;
+    background: white;
+    text-align: center;
+    color:black;
+    font-size: 20px;
+
+
+
+}
+.box {
+    /*width: 270px; !* Set the width of the box *!*/
+    /*height: 247px; !* Set the height of the box *!*/
+    /*border: 1px solid #000; !* Add a border to the box *!*/
+    /*overflow: hidden; !* Hide any image overflow *!*/
+}
+
+@media screen and (max-width:1250px) {
+    .container ul li {
+        width: 40%;
+        margin-left: 40px;
+
+    }
+    @media screen and (max-width: 750px) {
+        .container {
+            width: 100%;
+            padding: 0px;
+        }
+
+        .container ul li {
+            float: none;
+            width: 90%;
+            margin: 40px auto;
+        }
+    }
+}
 
     /* Contact Section */
     .contact {
