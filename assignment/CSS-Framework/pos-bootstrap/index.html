@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> WEB POS </title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+
+</head>
+<style>
+    .mb-3{
+        width: 500px;
+    }
+</style>
+<body>
+
+<header>
+    <nav class="navbar navbar-expand-lg navbar bg-dark d-flex flex-row ">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand text-white" href="#">
+                    <img src="assets/IMG/logo.webp" width="45px" alt="">
+                    WEB POS</a>
+                <ul class="navbar-nav me-auto ms-2 mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">USER</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="item.html">ITEM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="orderDeatils.html">ORDER </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="placeOrder.html">PlACE ORDER</a>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+<div class="container text-center">
+    <div class="row align-items-start">
+        <div class="col">
+            <h2 class="text-primary text-center m-lg-100 pt-5 " >USER</h2>
+            <section class="container col border-shadow m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-danger text-center m-lg-100 pt-5  text-primary" >USER FORM</h2>
+                        <form class="row p-4 m-0 m-lg-2  justify-content-center">
+
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="password" class="form-control" id="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="position" class="form-label">Position</label>
+                                <input type="password" class="form-control" id="address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="contact" class="form-label">Status</label>
+                                <input type="password" class="form-control" id="contact">
+                            </div>
+
+
+                            <button type="submit" style="width: 150px"  class="btn btn-primary">SAVE</button>
+
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+        <div class="col">
+
+            <div class="col">
+                <h2 class="text-primary text-center m-lg-100 pt-5 " >User Details</h2>
+                <section class="container col border-shadow m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
+
+                    <h5 class="text-danger text-center m-lg-3 pb-3" >--USER--</h5>
+                    <table class="table table-light table-striped">
+                        <thead>
+                        <tr>
+
+                            <th style="background-color:  #b8cbe0" scope="col">NAME</th>
+                            <th style="background-color:  #b8cbe0" scope="col">POSITION</th>
+                            <th style="background-color:  #b8cbe0" scope="col">STATUS</th>
+                            <th style="background-color:  #b8cbe0" scope="col">Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">SAN
+                              <img src="assets/IMG/avator.jpeg" alt="" style="
+    width: 122px;
+    padding-top: 0px;
+    padding-left: ‒10;
+    padding-left: ‒10;
+    padding-left: 30‒;
+    padding-left: 0px;
+    padding-right: 78px;
+">
+                            </th>
+                            <td>Manager</td>
+                            <td> ONLINE
+                                <div class="h-2.5 w-2.5 rounded-full bg-green-500 mr-2"></div>
+
+                            </td>
+
+                            <td>
+                                <button type="button" class="btn btn-primary">Edit</button>
+                                <button type="button" class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+
+                </section>
+
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<!--<script type="text/javascript">-->
+<!--    window.addEventListener('beforeunload',()=>{-->
+<!--        event.preventDefault();-->
+<!--        event.returnValue="";-->
+<!--    })-->
+<!--    alert("Are you sure")-->
+<!--</script>-->
+
+<!--<script src="assets/js/bootstrap.js"></script>-->
+</body>
+</html>
