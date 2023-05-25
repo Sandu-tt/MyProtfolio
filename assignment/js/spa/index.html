@@ -4,12 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>WEB POS</title>
+
+    <link rel="stylesheet" href="javaScript.js">
+
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <script src="assets/js/bootstrap.js"></script>
+
 
 </head>
 <style>
     .mb-3{
-        width: 200px;
+        width: 500px;
+    }
+    .hidden
+    {
+        display: none !important;
     }
 </style>
 <body>
@@ -26,16 +35,16 @@
                     WEB POS</a>
                 <ul class="navbar-nav me-auto ms-2 mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="index.html">USER</a>
+                        <a class="nav-link active text-white" aria-current="page" href="../../CSS-Framework/pos-bootstrap/index.html" id="customers">USER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="item.html">ITEM</a>
+                        <a class="nav-link text-white" href="../../CSS-Framework/pos-bootstrap/pages/item.html" id="items">ITEM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="">ORDER </a>
+                        <a class="nav-link text-white" href="../../CSS-Framework/pos-bootstrap/pages/orderdetails.html" id="orders">ORDER</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="placeorder.html">PLACE ORDER</a>
+                        <a class="nav-link text-white" href="../../CSS-Framework/pos-bootstrap/pages/placeorder.html" id="placeOrderss">PLACE ORDER</a>
                     </li>
 
                 </ul>
@@ -49,14 +58,232 @@
 </header>
 
 
-<div class="container ">
+<div class="container text-center"  id="USER">
+    <div class="row align-items-start">
+        <div class="col">
+            <h2 class="text-primary text-center m-lg-100 pt-5 " >USER</h2>
+            <section class="container col border-dark m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-danger text-center m-lg-100 pt-5  text-primary" >USER FORM</h2>
+                        <form class="row p-4 m-0 m-lg-2  justify-content-center">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="password" class="form-control" id="name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="position" class="form-label">Position</label>
+                                <input type="password" class="form-control" id="address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="contact" class="form-label">Status</label>
+                                <input type="password" class="form-control" id="contact">
+                            </div>
+
+
+                            <button type="submit" style="width: 150px"  class="btn btn-primary">SAVE</button>
+
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+        <div class="col">
+
+            <div class="col">
+                <h2 class="text-primary text-center m-lg-100 pt-5 " >User Details</h2>
+                <section class="container col border-dark m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
+
+                    <h5 class="text-danger text-center m-lg-3 pb-3" >--USER--</h5>
+                    <table class="table table-light table-striped">
+                        <thead>
+                        <tr>
+
+                            <th style="background-color:  #b8cbe0" scope="col">NAME</th>
+                            <th style="background-color:  #b8cbe0" scope="col">POSITION</th>
+                            <th style="background-color:  #b8cbe0" scope="col">STATUS</th>
+                            <th style="background-color:  #b8cbe0" scope="col">Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">SAN
+                                <img src="assets/IMG/avator.jpeg" alt="" style="
+    width: 122px;
+    padding-top: 0px;
+    padding-left: ‒10;
+    padding-left: ‒10;
+    padding-left: 30‒;
+    padding-left: 0px;
+    padding-right: 78px;
+">
+                            </th>
+                            <td>Manager</td>
+                            <td> ONLINE
+                                <div class="h-2.5 w-2.5 rounded-full bg-green-500 mr-2"></div>
+
+                            </td>
+
+                            <td>
+                                <button type="button" class="btn btn-primary">Edit</button>
+                                <button type="button" class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                </section>
+
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</div>
+
+<div class="container text-center" hidden id="item">
+    <div class="row align-items-start">
+        <div class="col">
+            <h2 class="text-primary text-center m-lg-100 pt-5 " >Item Details</h2>
+            <section class="container col border-dark m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
+
+                <div class="row">
+                    <div class="col">
+                        <h2 class="text-danger text-center m-lg-100 pt-5  text-primary" >Items</h2>
+                        <form class="row p-4 m-0 m-lg-2  justify-content-center">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail2" class="form-label " id="cids1">ID</label>
+                                <input type="email" class="form-control" id="exampleInputEmail2" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                                <label for="description" class="form-label">Description</label>
+                                <input type="password" class="form-control" id="description">
+                            </div>
+                            <div class="mb-3">
+                                <label for="unitprice" class="form-label">Unitprice</label>
+                                <input type="password" class="form-control" id="unitprice">
+                            </div>
+                            <div class="mb-3">
+                                <label for="qty" class="form-label">Qty</label>
+                                <input type="password" class="form-control" id="qty">
+                            </div>
+
+                            <button type="submit" style="width: 150px"  class="btn btn-primary">SAVE</button>
+
+                        </form>
+
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+        <div class="col">
+
+            <div class="col">
+                <h2 class="text-primary text-center m-lg-100 pt-5 " >Item Details</h2>
+                <section class="container col border-dark m-4 border rounded object-fit-contain  me-auto ms-20 mb-10">
+
+                    <h5 class="text-danger text-center m-lg-3 pb-3" >Item Details</h5>
+                    <table class="table table-light table-striped">
+                        <thead>
+                        <tr>
+                            <th style="background-color: #0077b6" scope="col">Id</th>
+                            <th style="background-color: #0077b6" scope="col">Description</th>
+                            <th style="background-color: #0077b6" scope="col">Unitprice</th>
+                            <th style="background-color: #0077b6" scope="col">Qty</th>
+                            <th style="background-color: #0077b6" scope="col">Action</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th scope="row">I001</th>
+                            <td>IWATCH
+                                <img src="assets/IMG/iwatch.jpeg" width="100px" alt="">
+                            </td>
+                            <td>€599</td>
+                            <td>2</td>
+                            <td>
+                                <button type="button" class="btn btn-primary">Edit</button>
+                                <button type="button" class="btn btn-danger">Delete</button>
+                            </td>
+                        </tr>
+
+
+                        </tbody>
+                    </table>
+
+                </section>
+
+                </section>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<section class="row mt-3 border border-danger rounded p-3 " hidden id="orders"  >
+    <div class="col">
+        <h2 class="text-primary text-center m-lg-100 pt-5 " >Order Details</h2>
+        <section class="container col me-auto ms-20 mb-10">
+
+            <!--<h5 class="text-danger text-center m-lg-3 pb-3" >Item Details</h5>-->
+            <table class="table table-light table-striped">
+                <thead>
+                <tr>
+                    <th style="background-color: #b8cbe0" scope="col">OrderId</th>
+                    <th style="background-color: #b8cbe0" scope="col">Date</th>
+                    <th style="background-color:#b8cbe0" scope="col">CustomerID</th>
+                    <th style="background-color: #b8cbe0" scope="col">ItemID</th>
+                    <th style="background-color: #b8cbe0" scope="col">Qty</th>
+                    <th style="background-color:#b8cbe0 " scope="col">Discount</th>
+                    <th style="background-color: #b8cbe0" scope="col">Total</th>
+                    <th style="background-color: #b8cbe0" scope="col">Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">OD001</th>
+                    <td>2022-05-21</td>
+                    <td>C001</td>
+                    <td>I001</td>
+                    <td>10</td>
+                    <td>4000</td>
+                    <td>80000</td>
+                    <td>
+                        <button type="button" class="btn btn-primary">Edit</button>
+                        <button type="button" class="btn btn-danger">Delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+
+
+
+
+
+        </section>
+
+    </div>
+</section>
+
+<div class="container " hidden id="placeOrders" >
     <div class="row align-items-start">
         <div class="col">
             <section class="container row mt-3 border border-danger rounded p-3 ">
                 <h2 class="text-primary m-lg-50 pt-5 " >Order Details</h2>
-                <section class="row mt-3 border border-shadow rounded p-3 ">
-                    <section class="container col border-shadow m-4 border rounded object-fit-contain ">
-                        <div class="row border border-shadow rounded p-2">
+                <section class="row mt-3 border border-dark rounded p-3 ">
+                    <section class="container col border-dark m-4 border rounded object-fit-contain ">
+                        <div class="row border border-dark rounded p-2">
 
                             <div class="col">
                                 <div class="input-group">
@@ -153,7 +380,7 @@
                     <div class="col-10"></div>
                     <div class="col-2">
                         <button type="button" class="btn btn-warning">Add to Cart</button>
-
+                        <button type="button" class="btn btn-info">Clear</button>
                     </div>
                 </div>
             </section>
@@ -179,9 +406,9 @@
                             <tbody>
                             <tr>
                                 <th scope="row">I001</th>
-                                <td>Ram</td>
+                                <td>IWATCH</td>
                                 <td>8000</td>
-                                <td>10</td>
+                                <td>2</td>
                                 <td>80000</td>
                                 <td>
                                     <button type="button" class="btn btn-primary">Edit</button>
@@ -224,7 +451,6 @@
                             <div class="col-10"></div>
                             <div class="col-2">
 
-
                             </div>
                         </div>
 
@@ -239,6 +465,15 @@
     </div>
 
 </div>
+<script type="text/javascript">
+    window.addEventListener('beforeunload',()=>{
+        event.preventDefault();
+        event.returnValue="";
+    })
+    alert("Are you sure")
+</script>
+
 <script src="assets/js/bootstrap.js"></script>
+
 </body>
 </html>
