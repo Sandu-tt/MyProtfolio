@@ -1,0 +1,28 @@
+div {
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+section{
+    width: 700px;
+    position: relative;
+}
+
+section#first{
+    top: 100px;
+    left: 100px;
+}
+
+section#second {
+    display: flex;
+    top: 100px;
+    left: 250px;
+}
+section#third{
+    left: 890px;
+    top: 100px;
+}
+
