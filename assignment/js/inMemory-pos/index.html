@@ -69,8 +69,8 @@
             </div>
         </div>
 
-            </div>
-        </div>
+    </div>
+    </div>
     </div>
 
     <!--Order Content-->
@@ -84,81 +84,81 @@
         <div class="row">
             <div class="col-lg-4 mt-2">
 
-                    <div class="card-body">
-                        <form>
-                            <div class="row">
+                <div class="card-body">
+                    <form>
+                        <div class="row">
 
-                            </div>
-                        </form>
-                    </div>
+                        </div>
+                    </form>
                 </div>
-            </div>
-
-            <div class="col-lg-4 mt-2">
-                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
-                    <div class="card-header bg-light fw-bold" style="border: none; border-top-left-radius: 5px; border-top-right-radius: 5px;">Item Select</div>
-                    <div class="card-body">
-                        <form>
-                            <div class="row">
-                                <div class="col-6">
-                                    <div>
-                                        <label>Item Code</label>
-                                        <select class="form-select" aria-label="Default select example">
-                                            <option selected></option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div>
-                                        <label>Item Name</label>
-                                        <input class="form-control" id="orderItemCode" type="text">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row pt-2">
-                                <div class="col-6">
-                                    <div>
-                                        <label>Price</label>
-                                        <input class="form-control" id="orderPrice" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-6">
-                                    <div>
-                                        <label>Qty. on Hand</label>
-                                        <input class="form-control" id="orderQtyOnHand" type="text">
-                                    </div>
-                                </div>
-                                <div class="col-12 pt-2">
-                                    <div>
-                                        <label>Order Quantity</label>
-                                        <input class="form-control" id="orderQty" min="1" type="number">
-                                    </div>
-                                </div>
-                                <div class="col-12" style="padding-top: 32px;">
-                                    <button class="btn btn-secondary w-100">Add Item</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-
-            <!--Item table-->
-            <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
-                <table class="table table-bordered border-primary">
-                    <thead class="table-secondary">
-                    <th scope="col">Item Code</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Quantity</th>
-                    <th scope="col">Price</th>
-                    <th scope="col">Total</th>
-                    </thead>
-                    <tbody></tbody>
-                </table>
             </div>
         </div>
 
+        <div class="col-lg-4 mt-2">
+            <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
+                <div class="card-header bg-light fw-bold" style="border: none; border-top-left-radius: 5px; border-top-right-radius: 5px;">Item Select</div>
+                <div class="card-body">
+                    <form>
+                        <div class="row">
+                            <div class="col-6">
+                                <div>
+                                    <label>Item Code</label>
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected></option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <label>Item Name</label>
+                                    <input class="form-control" id="orderItemCode" type="text">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row pt-2">
+                            <div class="col-6">
+                                <div>
+                                    <label>Price</label>
+                                    <input class="form-control" id="orderPrice" type="text">
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div>
+                                    <label>Qty. on Hand</label>
+                                    <input class="form-control" id="orderQtyOnHand" type="text">
+                                </div>
+                            </div>
+                            <div class="col-12 pt-2">
+                                <div>
+                                    <label>Order Quantity</label>
+                                    <input class="form-control" id="orderQty" min="1" type="number">
+                                </div>
+                            </div>
+                            <div class="col-12" style="padding-top: 32px;">
+                                <button class="btn btn-secondary w-100">Add Item</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
+
+        <!--Item table-->
+        <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
+            <table class="table table-bordered border-primary">
+                <thead class="table-secondary">
+                <th scope="col">Item Code</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    </div>
     </div>
 
     <!-- Item content -->
@@ -436,28 +436,258 @@
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.all.min.js"></script>
 
-<!-- import db js -->
-<script src="db/db.js"></script>
+<script>
+    var customerDB=[];
+    $("#saveCustomer").click(function () {
+        let id = $("#cusId").val();
+        let name = $("#cusName").val();
+        let address = $("#address").val();
+        let salary = $("#salary").val();
 
-<!-- import models -->
-<!--<script src="model/Item.js"></script>-->
-<!--<script src="model/Customer.js"></script>-->
-<!--<script src="model/Order.js"></script>-->
-<!--<script src="model/Cart.js"></script>-->
-<!--<script src="model/OrderDetail.js"></script>-->
+        // let customer=[id,name,address,salary];
+
+        let customerOb={
+            cusId:id,
+            cusName:name,
+            cusAddress:address,
+            cusSalary:salary
+        }
+
+        customerDB.push(customerOb);
+
+        //let tbody = "<tr>" + "<td>" + id + "</td>" + "<td>" + name + "</td>" + "<td>" + address + "</td>" + "<td>" + salary + "</td>" + "</tr>";
+
+        /*let tbody=`<tr>
+                            <td>${customer[0]}</td>
+                            <td>${customer[1]}</td>
+                            <td>${customer[2]}</td>
+                            <td>${customer[3]}</td>
+                            </tr>`;
+
+        $("#tblCustomer").append(tbody);*/
+
+    });
+
+    $("#saveCustomer").click(function () {
+        $("#tblCustomer").empty();
+
+        for (let i = 0; i < customerDB.length; i++) {
+            let id = customerDB[i].cusId;
+            let name = customerDB[i].cusName;
+            let address = customerDB[i].cusAddress;
+            let salary = customerDB[i].cusSalary;
+
+            let row=`<tr>
+                        <td>${id}</td>
+                        <td>${name}</td>
+                        <td>${address}</td>
+                        <td>${salary}</td>
+                        </tr>`;
+
+            $("#tblCustomer").append(row);
+        }
+    });
+
+    /*document.getElementById("saveCustomer").addEventListener("click", function () {
+
+        //get typed values of input fields
+        let id = document.getElementById("customer-id").value;
+        let name = document.getElementById("customer-name").value;
+        let address = document.getElementById("customer-address").value;
+        let salary = document.getElementById("customer-salary").value;
+
+        //let's print it
+        console.log(id,name,address,salary);
+
+        //catch the table body
+        let tBody=document.getElementById("tblCustomer");
+
+        //ok then, let's create the above row
+        let tr= document.createElement("tr");
+
+        //let's create another four columns
+        let col1= document.createElement("td");
+        let col2= document.createElement("td");
+        let col3= document.createElement("td");
+        let col4= document.createElement("td");
+
+        //set input fields values to the above created columns
+        col1.textContent=id;
+        col2.textContent=name;
+        col3.textContent=address;
+        col4.textContent=salary;
+
+        //set 4 columns to the previously created row
+        tr.appendChild(col1);
+        tr.appendChild(col2);
+        tr.appendChild(col3);
+        tr.appendChild(col4);
+
+        //set the row to the table body
+        tBody.appendChild(tr);
+    });*/
+</script>
+
+
+<script>
+
+
+    var itemDB=[];
+
+    $("#saveItem").click(function () {
+        let code = $("#itemCode").val();
+        let productName = $("#itemName").val();
+        let price = $("#itemPrice").val();
+        let qty = $("#quantity").val();
+
+        // let item=[code,productName,price,qty];
+
+        let ItemOb={
+            iCode:code,
+            iName:productName,
+            iPrice:price,
+            iQty:qty
+        }
+
+        itemDB.push(ItemOb);
+
+        /*let tbody = "<tr>" + "<td>" + code + "</td>" + "<td>" + productName + "</td>" + "<td>" + price + "</td>" + "<td>" + qty + "</td>" + "</tr>";
+
+        $("#tblItem").append(tbody);*/
+
+    });
+
+    $("#saveItem").click(function () {
+        $("#tblItems").empty();
+
+        for (let i = 0; i < itemDB.length; i++) {
+            let code = itemDB[i].iCode;
+            let productName = itemDB[i].iName;
+            let unitPrice = itemDB[i].iPrice;
+            let qty = itemDB[i].iQty;
+
+            let row=`<tr>
+                        <td>${code}</td>
+                        <td>${productName}</td>
+                        <td>${unitPrice}</td>
+                        <td>${qty}</td>
+                        </tr>`;
+
+            $("#tblItems").append(row);
+        }
+    });
+    /*document.getElementById("saveItem").addEventListener("click", function () {
+
+        //get typed values of input fields
+        let code = document.getElementById("item-ID").value;
+        let productName = document.getElementById("item-Name").value;
+        let price = document.getElementById("item-Price").value;
+        let qty = document.getElementById("item-Quantity").value;
+
+        //let's print it
+        console.log(code,productName,price,qty);
+
+        //catch the table body
+        let tBody=document.getElementById("tblItem");
+
+        //ok then, let's create the above row
+        let tr= document.createElement("tr");
+
+        //let's create another four columns
+        let col1= document.createElement("td");
+        let col2= document.createElement("td");
+        let col3= document.createElement("td");
+        let col4= document.createElement("td");
+
+        //set input fields values to the above created columns
+        col1.textContent=code;
+        col2.textContent=productName;
+        col3.textContent=price;
+        col4.textContent=qty;
+
+        //set 4 columns to the previously created row
+        tr.appendChild(col1);
+        tr.appendChild(col2);
+        tr.appendChild(col3);
+        tr.appendChild(col4);
+
+        //set the row to the table body
+        tBody.appendChild(tr);
+    });*/
+
+
+</script>
 
 
 
-<!-- import Index controller js -->
-<script src="controller/IndexController.js"></script>
 
-<!-- import Customer controller js -->
-<script src="controller/CustomerController.js"></script>
 
-<!-- import Item controller js -->
-<script src="controller/ItemController.js"></script>
+<script>
+    $("#addItemBtn").click(function () {
 
-<!-- import Order controller js -->
-<script src="controller/OrderController.js"></script>
+        let orderId = $("#itemCode").val();
+        let itemcode=$("#orderItemOpt").val();
+        let productName = $("#orderItemName").val();
+        let price = $("#orderUPrice").val();
+        let qty = $("#orderQty").val();
+        let tot = $("#total").val();
+
+        let tbody = "<tr>" + "<td>" + orderId + "</td>" + "<td>" + itemcode + "</td>"+"<td>" + productName + "</td>" + "<td>" + price + "</td>" + "<td>" + qty + "</td>" +  "<td>" + tot + "</td>" +"</tr>";
+
+        $("#tblOrder").append(tbody);
+
+    });
+    /*document.getElementById("addToCart").addEventListener("click", function () {
+
+        //get typed values of input fields
+        let code = document.getElementById("itemCode").value;
+        let productName = document.getElementById("item_Name").value;
+        let price = document.getElementById("unitPrice").value;
+        let qty = document.getElementById("orderedQty").value;
+        let tot = document.getElementById("total").value;
+
+        //let's print it
+        console.log(code,productName,price,qty,tot);
+
+        //catch the table body
+        let tBody=document.getElementById("tblPlaceOrder");
+
+        //ok then, let's create the above row
+        let tr= document.createElement("tr");
+
+        //let's create another four columns
+        let col1= document.createElement("td");
+        let col2= document.createElement("td");
+        let col3= document.createElement("td");
+        let col4= document.createElement("td");
+        let col5= document.createElement("td");
+
+        //set input fields values to the above created columns
+        col1.textContent=code;
+        col2.textContent=productName;
+        col3.textContent=price;
+        col4.textContent=qty;
+        col5.textContent=tot;
+
+        //set 4 columns to the previously created row
+        tr.appendChild(col1);
+        tr.appendChild(col2);
+        tr.appendChild(col3);
+        tr.appendChild(col4);
+        tr.appendChild(col5);
+
+        //set the row to the table body
+        tBody.appendChild(tr);
+    });*/
+
+
+
+
+</script>
+
+
+
+
+<script src="controller/controller.js"></script>
 </body>
 </html>
