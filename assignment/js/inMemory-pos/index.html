@@ -134,8 +134,10 @@
                                     <input class="form-control" id="orderQty" min="1" type="number">
                                 </div>
                             </div>
-                            <div class="col-12" style="padding-top: 32px;">
-                                <button class="btn btn-secondary w-100">Add Item</button>
+                      <div class="col-12" style="padding-top: 32px;">
+<!--                                <button class="btn btn-secondary w-100" id="addItem" >Add Item</button>-->
+                            <button id="item-add" type="button" class="btn btn-secondary w-100 ">Add Item</button>
+
                             </div>
                         </div>
                     </form>
@@ -217,7 +219,7 @@
 
             <div class="col-lg-6 mg-lg-0 mt-3">
                 <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
-                    <div class="card-header bg-light fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Renew | Delete | Search Item</div>
+                    <div class="card-header bg-light fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Item Details</div>
                     <div class="card-body">
                         <form>
                             <!--Search-->
@@ -433,12 +435,7 @@
 
 <!-- import jquery -->
 <script src="assets/js/jquery-3.6.1.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.5.0/dist/sweetalert2.all.min.js"></script>
-
 <script>
-
-
     var customerDB=[];
     $("#saveCustomer").click(function () {
         let id = $("#cusId").val();
@@ -456,8 +453,6 @@
         }
 
         customerDB.push(customerOb);
-
-
 
     });
 
@@ -483,12 +478,7 @@
 
 
 </script>
-
-
 <script>
-
-
-
     var itemDB=[];
 
     $("#saveItem").click(function () {
@@ -507,8 +497,6 @@
         }
 
         itemDB.push(ItemOb);
-
-
 
     });
 
@@ -531,36 +519,28 @@
             $("#tblItems").append(row);
         }
     });
-
-
 </script>
-
-
-
-
-
 <script>
-    $("#addItemBtn").click(function () {
+    $("#item-add").click(function (e) {
+        e.preventDefault();
 
         let orderId = $("#itemCode").val();
-        let itemcode=$("#orderItemOpt").val();
-        let productName = $("#orderItemName").val();
-        let price = $("#orderUPrice").val();
-        let qty = $("#orderQty").val();
-        let tot = $("#total").val();
 
-        let tbody = "<tr>" + "<td>" + orderId + "</td>" + "<td>" + itemcode + "</td>"+"<td>" + productName + "</td>" + "<td>" + price + "</td>" + "<td>" + qty + "</td>" +  "<td>" + tot + "</td>" +"</tr>";
+
+        let productName = $("#orderItemName").val();
+        let price = $("#orderPrice").val();
+        let qty = $("#orderQtyOnHand").val();
+        let tot = $("#orderQty").val();
+
+        console.log(qty, tot, price, productName);
+
+        let tbody = "<tr>" + "<td>" + orderId + "</td>" + "<td>" + productName + "</td>"+"<td>" + price + "</td>" + "<td>" + price + "</td>" + "<td>" + qty + "</td>" +  "<td>" + tot + "</td>" +"</tr>";
 
         $("#tblOrder").append(tbody);
 
     });
 
-
-
 </script>
-
-
-
 
 <script src="controller/controller.js"></script>
 </body>
