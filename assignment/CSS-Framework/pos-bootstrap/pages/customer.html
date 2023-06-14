@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <title>Smart POS</title>
+    <title>Manage Customer</title>
 </head>
 <body>
 <header>
@@ -22,7 +22,7 @@
         <div class="container-fluid">
             <a class="navbar-brand fw-bold" href="#">
                 <img src="../assets/IMG/logo.webp" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
-                WEB<span class="text-danger">POS</span>
+                WEB<span class="text-danger">WEB POS</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -31,8 +31,8 @@
                 <div class="navbar-nav">
                     <a class="nav-link" href="../index.html">Dashboard</a>
                     <a class="nav-link" href="order.html">Orders</a>
-                    <a class="nav-link active" aria-current="page" href="item.html">Items</a>
-                    <a class="nav-link" href="customer.html">Customers</a>
+                    <a class="nav-link" href="item.html">Items</a>
+                    <a class="nav-link active" aria-current="page" href="#">Customers</a>
                 </div>
             </div>
         </div>
@@ -40,7 +40,7 @@
 </header>
 
 <main>
-    <!-- Item Form -->
+    <!-- Customer Form -->
     <div class="container-fluid position-relative" style="top: -52px;">
         <div class="page-title p-3">
 
@@ -50,39 +50,39 @@
     <div class="container-fluid position-relative" style="bottom: 35px">
         <div class="row">
             <div class="col-lg-6 mt-3">
-                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
-                    <div class="card-header bg-light fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Add New Item</div>
+                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 5px;">
+                    <div class="card-header bg-light fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Add New Customer</div>
                     <div class="card-body">
                         <form>
                             <div class="row">
                                 <div class="col-3">
                                     <div class="form-group">
-                                        <label>Item Code</label>
-                                        <input class="form-control" id="itemCode" type="text">
+                                        <label>Customer ID</label>
+                                        <input class="form-control" id="cusId" type="text">
                                     </div>
                                 </div>
                                 <div class="col-9">
                                     <div class="form-group">
-                                        <label>Item Name</label>
-                                        <input class="form-control" id="itemName" type="text">
+                                        <label>Name</label>
+                                        <input class="form-control" id="cusName" type="text">
                                     </div>
                                 </div>
                             </div>
                             <div class="row pt-4">
                                 <div class="col-3">
                                     <div class="form-group">
-                                        <label>Quantity</label>
-                                        <input class="form-control" id="quantity" min="1" type="number">
+                                        <label>Email</label>
+                                        <input class="form-control" id="email" type="text">
                                     </div>
                                 </div>
                                 <div class="col-9">
                                     <div class="form-group">
-                                        <label>Item Price</label>
-                                        <input class="form-control" id="itemPrice" type="text">
+                                        <label>Address</label>
+                                        <input class="form-control" id="address" type="text">
                                     </div>
                                 </div>
                                 <div class="col-12 pt-4">
-                                    <button type="button" class="btn btn-secondary w-100" id="saveItem">Save Item</button>
+                                    <button type="button" class="btn btn-secondary w-100" id="addCustomer">Save Customer</button>
                                 </div>
                             </div>
                         </form>
@@ -92,17 +92,17 @@
 
             <div class="col-lg-6 mg-lg-0 mt-3">
                 <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
-                    <div class="card-header bg-light fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Item Details</div>
+                    <div class="card-header bg-light fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Customer Details</div>
                     <div class="card-body">
                         <form>
                             <!--Search-->
                             <div class="row">
                                 <div class="col-6">
-                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search Customer" aria-label="Search">
                                 </div>
                                 <div class="col-3">
                                     <select class="form-select" aria-label="Default select example">
-                                        <option selected>Select Code</option>
+                                        <option selected>Select ID</option>
                                     </select>
                                 </div>
                                 <div class="col-3">
@@ -113,37 +113,37 @@
                             <div class="row pt-4">
                                 <div class="col-3">
                                     <div class="form-group">
-                                        <label>Item Code</label>
-                                        <input class="form-control" id="update-itemCode" type="text">
+                                        <label>Customer ID</label>
+                                        <input class="form-control" id="update-cusId" type="text">
                                     </div>
                                 </div>
                                 <div class="col-9">
                                     <div class="form-group">
-                                        <label>Item Name</label>
-                                        <input class="form-control" id="update-itemName" type="text">
+                                        <label>Name</label>
+                                        <input class="form-control" id="update-cusName" type="text">
                                     </div>
                                 </div>
                             </div>
                             <div class="row pt-4">
                                 <div class="col-3">
                                     <div class="form-group">
-                                        <label>Quantity</label>
-                                        <input class="form-control" id="update-quantity" type="text">
+                                        <label>Email</label>
+                                        <input class="form-control" id="update-email" type="text">
                                     </div>
                                 </div>
                                 <div class="col-9">
                                     <div class="form-group">
-                                        <label>Item Price</label>
-                                        <input class="form-control" id="update-itemPrice" type="text">
+                                        <label>Address</label>
+                                        <input class="form-control" id="update-address" type="text">
                                     </div>
                                 </div>
                             </div>
                             <div class="row pt-4">
                                 <div class="col-6">
-                                    <button type="button" class="btn btn-secondary w-100">Update Item</button>
+                                    <button type="button" class="btn btn-secondary w-100">Update Customer</button>
                                 </div>
                                 <div class="col-6">
-                                    <button type="button" class="btn btn-secondary w-100">Delete Item</button>
+                                    <button type="button" class="btn btn-secondary w-100">Delete Customer</button>
                                 </div>
                             </div>
                         </form>
@@ -152,23 +152,21 @@
             </div>
         </div>
 
-        <!--Item table-->
-        <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
+        <!--Customer table-->
+        <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px;">
             <table class="table table-bordered border-primary">
                 <thead class="table-secondary">
-                <th scope="col">Item Code</th>
+                <th scope="col">Customer ID</th>
                 <th scope="col">Name</th>
-                <th scope="col">Quantity On Hand</th>
-                <th scope="col">Price</th>
+                <th scope="col">Email</th>
+                <th scope="col">Address</th>
                 </thead>
-                <tbody id="tblItems"></tbody>
+                <tbody id="tblCustomer">
+
+                </tbody>
             </table>
         </div>
     </div>
 </main>
-
-
-
-
 </body>
 </html>
