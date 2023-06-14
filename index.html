@@ -6,76 +6,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
             name="description"
-            content="Hey, I’m  Tharaka from Sri Lanka.I’m software engineering
-    undergraduate student.I have great passion in developing and desinging unique piece of work."
+            content="Hello there! I'm Sanduni Tharaka, a confident and friendly backend
+          developer who is always motivated to take on new challenges."
+    />
+    <meta
+            name="keywords"
+            content="Sanduni, Sanduni Tharaka, JavaScript,software engineering, JS expert, TS expert, AWS expert, NodeJS expert, React expert, PHP expert, Java expert, full-stack development, web development, cloud computing, front-end development, back-end development, software architecture"
     />
 
+    <meta name="author" content="Sanduni Tharaka" />
 
-    <meta name="author" content="Thaaa" />
+    <meta property="og:title" content="Sanduni Tharaka" />
+    <meta property="og:url" content="" />
+    <meta property="og:image" content="assets/img/lap.png" />
+    <!--    <img src="assets/img/lap.png " alt="">-->
 
-
-    <meta property="og:image" content="assets/img/profileImage.png" />
-
-    <title> Thaa</title>
-
+    <title>Sanduni Tharaka</title>
+  
     <link rel="icon" href="favicon.jpg">
     <link href="https://fonts.googleapis.com" rel="preconnect" />
-
     <link
             href="https://fonts.gstatic.com"
             rel="preconnect"
             crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/css/styles.css" />
-    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css" />
     <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+    />
+    <script
+            src="https://kit.fontawesome.com/d1bb85e981.js"
+            crossorigin="anonymous"
+    ></script>
+    <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+            integrity="sha384-GJwEOz+Uvyr+LW1mG9WOxnKSkp33oNmFefd8FxWNAoV7aDTdKugoMv7uA+ho/9M7"
+            crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
-<header class="header navbar">
-    <p style="font-size: 19px"><b>SANDU</b></p>
-    <nav class="nav">
-        <ul>
-            <li><a href="#" class="navtext">Home</a></li>
-            <li><a href="#" class="navtext">About</a></li>
-            <li><a href="#" class="navtext">Services</a></li>
-<!--            <li><a href="#" class="navtext">Skills</a></li>-->
-            <li><a href="#" class="navtext">Resume</a></li>
-<!--            <li><a href="#" class="navtext">Projects</a></li>-->
-            <li><a href="#" class="navtext">Contacts</a></li>
+<header class="header">
+    <nav>
+        <div class="logo">
+            <a href="index.html">SANDU</a>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+            <li><a href="#section-home">Home</a></li>
+            <li><a href="#section-about">About</a></li>
+            <li><a href="#section-skills">Services</a></li>
+            <li><a href="#section-projects">Projects</a></li>
+            <li><a href="pages/assignments/assignments.html">Assignments</a></li>
+            <li><a href="#section-contacts">Contacts</a></li>
         </ul>
     </nav>
 </header>
 
-<section class="section-home">
-    <div class="section-content">
+<section class="section-home" id="section-home">
+    <div class="section-content" data-aos="fade-up">
         <div class="section-text">
-            <h1>    Sanduni Tharaka</h1>
-            <h2>I’M develpoer,web desinger &</h2>
-            <h2>UI/UX desinger</h2>
-            <div class="white-box-button"><b>Let's Chat</b></div>
+            <h1>Sanduni Tharaka</h1>
+            <h2>Software Engineer</h2>
+            <button class="hero-button">Let's Chat</button>
             <div class="section-icons">
-                <i class="fa fa-linkedin"> </i>
+                <i class="fa fa-linkedin"></i>
                 <i class="fa fa-twitter"></i>
                 <i class="fa fa-github"></i>
-                <i class="fa fa-instagram"></i>
-                <i class="fa fa-google"></i>
+                <i class="fa fa-facebook"></i>
             </div>
         </div>
-        <div class="section-image">
+        <div class="section-image" data-aos="fade-up">
             <img src="assets/img/lap.png" alt="Profile Image" />
         </div>
     </div>
 </section>
-<section class="section-about">
-    <div class="container">
-        <h2 class="about-title">About Me</h2>
-        <div class="about-content">
-            <p>Hey, I'm thaa from Sri Lanka.
+
+<div class="marquee" >
+      <span
+      >Hello! Welcome to my website. Thanks for visiting
+         Have a nice day! )
+      </span>
+</div>
+
+<section class="section-about" id="section-about">
+    <div class="about-container">
+        <div class="card" data-aos="fade-up">
+            <h1>About Me</h1>
+            <p>Hey, I'm <b>Tharaka</b> from Sri Lanka.
                 I'm software engineering
-                undergraduate student.
+                undergraduate student. <br />
                 I have great passion in
                 developing and designing unique piece
                 of work.So, if  you're
@@ -83,83 +110,152 @@
                 is adaptable,open -minded
                 and committed  to  delivering high-quality results,Let's  communicate and work together to
                 bring out good solution .Let's work together to bring your ideas to life.
+
             </p>
+
             <div class="about-image">
-                <img src="assets/img/image.jpeg" alt="" />
+                <img src="assets/img/project.png" alt="" />
+            </div>
+            <!--            <div class="card-icons">-->
+            <!--                <i class="fa-brands fa-node-js"></i>-->
+            <!--                <i class="fa-brands fa-react"></i>-->
+            <!--                <i class="fa-brands fa-js-square"></i>-->
+            <!--                <i class="fa-brands fa-python"></i>-->
+            <!--                <i class="fa-brands fa-java"></i>-->
+            <!--            </div>-->
+        </div>
+    </div>
+</section>
+
+<div class="marquee-what-i-do">
+    <div class="marquee-content">
+        <h2 class="marquee-text">what I do</h2>
+        <div aria-hidden="true" class="marquee-text">·</div>
+        <div aria-hidden="true" class="marquee-text">what I do</div>
+        <div aria-hidden="true" class="marquee-text">·</div>
+        <div aria-hidden="true" class="marquee-text">what I do</div>
+        <div aria-hidden="true" class="marquee-text">·</div>
+    </div>
+    <div aria-hidden="true" class="marquee-content">
+        <div class="marquee-text">what I do</div>
+        <div class="marquee-text">·</div>
+        <div class="marquee-text">what I do</div>
+        <div class="marquee-text">·</div>
+        <div class="marquee-text">what I do</div>
+        <div class="marquee-text">·</div>
+    </div>
+</div>
+<section class="section-skills" id="section-skills">
+    <div class="container skill-container">
+        <div class="skill-box-container">
+            <div class="skill-box" data-aos="fade-up">
+                <div class="skill-card" id="secondBox">
+                    <div class="skill-block-content">
+                        <i class="material-icons" style="font-size: 48px">science</i>
+                        <div class="skill-value">
+                            <p class="skill-number">
+                                <span class="skill-string">Research</span>
+                            </p>
+                        </div>
+                        <div class="skill-note">
+                            Conducting thorough investigations and analysis to gain
+                            insights and knowledge on a specific topic or problem.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box" data-aos="fade-up">
+                <div class="skill-card" id="firstBox">
+                    <div class="skill-block-content">
+                        <i class="material-icons" style="font-size: 48px">tab</i>
+                        <div class="skill-value">
+                            <p class="skill-number">
+                                <span class="skill-string">Web Development</span>
+                            </p>
+                        </div>
+                        <div class="skill-note">
+                            Yes, I am creating some of the awsome websites and application
+                            in the planet.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box" data-aos="fade-up">
+                <div class="skill-card" id="thirdBox">
+                    <div class="skill-block-content">
+                        <i class="material-icons" style="font-size: 48px">terminal</i>
+                        <div class="skill-value">
+                            <p class="skill-number">
+                                <span class="skill-string">Software Development</span>
+                            </p>
+                        </div>
+                        <div class="skill-note">
+                            Don’t have your own Software Dev? Ask me about our
+                            professional software development partner solutions.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="skill-box-container">
+            <div class="skill-box" data-aos="fade-up">
+                <div class="skill-card" id="forthBox">
+                    <div class="skill-block-content">
+                        <i class="material-icons" style="font-size: 48px">cloud</i>
+                        <div class="skill-value">
+                            <p class="skill-number">
+                                <span class="skill-string">Cloud Computing</span>
+                            </p>
+                        </div>
+                        <div class="skill-note">
+                            I provide some of the most awesome cloud computing solutions.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box" data-aos="fade-up">
+                <div class="skill-card" id="fifthBox">
+                    <div class="skill-block-content">
+                        <i class="material-icons" style="font-size: 48px">bug_report</i>
+                        <div class="skill-value">
+                            <p class="skill-number">
+                                <span class="skill-string">Testing</span>
+                            </p>
+                        </div>
+                        <div class="skill-note">
+                            Let's start testing your solutions right now.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-box" data-aos="fade-up">
+                <div class="skill-card" id="sixthBox">
+                    <div class="skill-block-content">
+                        <i class="material-icons" style="font-size: 48px"
+                        >architecture</i
+                        >
+                        <div class="skill-value">
+                            <p class="skill-number">
+                                <span class="skill-string">Software Designing</span>
+                            </p>
+                        </div>
+                        <div class="skill-note">
+                            I am providing full website design service for your need
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 </section>
-<!--<section class="projects">-->
-<!--    <div class="section-title">-->
-<!--        <h2>Projects</h2>-->
-<!--        <hr>-->
-<!--        <img src="assets/img/project.png" alt="">-->
-<!--        <img src="assets/img/pos.png" alt="">-->
+
+<!--<section class="section-quote">-->
+<!--    <div class="blue-back">-->
+<!--        <blockquote data-aos="fade-up">-->
+<!--            You know all those amazing ideas you have? Let's bring them to life.-->
+<!--        </blockquote>-->
 <!--    </div>-->
 <!--</section>-->
-<section class="section-skills">
-    <div class="container">
-        <div class="section-title">
-            <h2>Services</h2>
-        </div>
-        <div class="skills-content">
-            <div class="skills-box">
-                <div class="skills-image">
-                    <img src="assets/img/sdevelop.jpg" alt="fullstack" height="110"/>
-                </div>
-                <div class="skills-text">
-                    <h3>Web Development</h3>
-                    <p>
-                        Proficient in full-stack development, including front-end
-                        (HTML/CSS/JS) and back-end (Python/Java), and familiar with
-                        frameworks like React and Node.js. Experienced in creating
-                        scalable web applications with seamless user experiences.
-                    </p>
-                </div>
-            </div>
-            <div class="skills-box">
-                <div class="skills-image">
-                    <img src="assets/img/webdesign.jpg" alt="cloud-computing" height="110"/>
-                </div>
-                <div class="skills-text">
-                    <h3>Web Designing</h3>
-                    <p>
-                        Experienced in utilizing cloud computing to optimize software
-                        development processes, including deployment, storage, and
-                        scalability. Proficient in working with popular cloud platforms
-                        like AWS and IBM Cloud.
-                    </p>
-                </div>
-            </div>
-            <div class="skills-box">
-                <div class="skills-image">
-                    <img src="assets/img/ui.jpg" alt="testing" height="110" />
-                </div>
-                <div class="skills-text">
-                    <h3>UI/UX Designing</h3>
-                    <p>
-                        Proficient in software testing methodologies including unit
-                        testing, integration testing, and regression testing.
-                        Experienced in utilizing testing frameworks like Jest and
-                        Selenium to ensure the quality and stability of software
-                        applications.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-</section>
-
-<section class="skills">
-    <div class="section-title">
-        <h2>Skills</h2>
-    </div>
-    <div class="image-container">
-        <img src="assets/img/skills.png" alt="Skills Image" />
-    </div>
-</section>
 <section class="resume">
     <div class="section-title">
         <h2>Resume</h2>
@@ -167,7 +263,7 @@
 
     <div class="resume-right-container">
         <div class="resume-box-container education">
-            <h3>Education</h3>
+            <!--            <h3>Education</h3>-->
             <div class="resume-box-row">
                 <div class="resume-box">
                     <div class="resume-secondary-box">
@@ -226,152 +322,174 @@
     </div>
 
 </section>
-<section class="Projects">
-    <div class="section-title">
-        <h2>Projects</h2>
+
+<div class="marquee-what-i-do">
+    <div class="marquee-content">
+        <h2 class="marquee-text">projects</h2>
+        <div aria-hidden="true" class="marquee-text">·</div>
+        <div aria-hidden="true" class="marquee-text">projects</div>
+        <div aria-hidden="true" class="marquee-text">·</div>
+        <div aria-hidden="true" class="marquee-text">projects</div>
+        <div aria-hidden="true" class="marquee-text">·</div>
     </div>
-
-    <div>
-
-            <img src="assets/img/Screenshot%202023-05-18%20014241.png" width="340px" alt="project">
-
-
-
-            <img src="assets/img/Screenshot%202023-05-18%20014241.png" width="340px" alt="assignment">
-
-
-
-            <img src="assets/img/Screenshot%202023-05-18%20014241.png" width="340px" alt="assignment">
-
-
+    <div aria-hidden="true" class="marquee-content">
+        <div class="marquee-text">projects</div>
+        <div class="marquee-text">·</div>
+        <div class="marquee-text">projects</div>
+        <div class="marquee-text">·</div>
+        <div class="marquee-text">projects</div>
+        <div class="marquee-text">·</div>
     </div>
+</div>
 
+<section class="projects" id="section-projects">
+    <div class="container"></div>
+    <div class="about-container">
+<!--        <div class="card project-card" data-aos="fade-up">-->
+<!--            <iframe-->
+<!--                    src="https://www.youtube.com/embed/I_FpcadnjPY"-->
+<!--                    title="Introducing CodeBoost: The AI-Powered Code Completion Extension for Visual Studio Code"-->
+<!--                    frameborder="0"-->
+<!--                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+<!--                    allowfullscreen-->
+<!--            ></iframe>-->
+<!--            <div class="project-info">-->
+<!--                <h3>CodeBoost - VS Code Extension</h3>-->
+<!--                <p>-->
+<!--                    AI coding assisant for your VS Code. It automatically completing-->
+<!--                    the rest of the code while you typing. Super fast and It's Free-->
+<!--                </p>-->
+<!--                <button>View More >>></button>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="card project-card" data-aos="fade-up">-->
+<!--            <iframe-->
+<!--                    src="https://www.youtube.com/embed/Hr-levlqPHw"-->
+<!--                    title="Schola: Overview &amp; Key Features - JavaFX LMS"-->
+<!--                    frameborder="0"-->
+<!--                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"-->
+<!--                    allowfullscreen-->
+<!--            ></iframe>-->
+
+<!--            <div class="project-info">-->
+<!--                <h3>Schola - Ultimate LMS</h3>-->
+<!--                <p>-->
+<!--                    Powerful inhouse software to manage your institute/school.-->
+<!--                    Increase productivity. With online examination system to check-->
+<!--                    student's performance-->
+<!--                </p>-->
+<!--                <button>View More >>></button>-->
+<!--            </div>-->
+        </div>
     </div>
 </section>
-
-<section class="Assignments">
-    <div class="section-title">
-        <h2>Assignments</h2>
+<div class="marquee-what-i-do">
+    <div class="marquee-content">
+        <h2 class="marquee-text">contact</h2>
+        <div aria-hidden="true" class="marquee-text">·</div>
+        <div aria-hidden="true" class="marquee-text">contact</div>
+        <div aria-hidden="true" class="marquee-text">·</div>
+        <div aria-hidden="true" class="marquee-text">contact</div>
+        <div aria-hidden="true" class="marquee-text">·</div>
     </div>
-    <div class="container">
-        <ul>
-            <li> <div class="bottom">Heading</div>
-                <div class="box">
-                    <img src="assets/img/gif/1.gif" height="247px" width="235px" alt="Image Description">
-                </div>
-
-            </li>
-            <li> <div class="bottom">Heading</div>
-                <div class="box">
-                    <img src="assets/img/gif/3.gif" height="247px" width="235px" alt="Image Description">
-                </div>
-            </li>
-            <li> <div class="bottom">Heading</div>
-                <div class="box">
-                    <img src="assets/img/gif/4.gif" height="247px" width="235px" alt="Image Description">
-                </div></li>
-            <li> <div class="bottom">Heading</div>
-                <div class="box">
-                    <img src="assets/img/gif/1.gif" height="247px" width="235px" alt="Image Description">
-                </div></li>
-            <li> <div class="bottom">Heading</div>
-                <div class="box">
-                    <img src="assets/img/gif/5.gif" height="247px" width="235px" alt="Image Description">
-                </div></li>
-            <li> <div class="bottom">Heading</div>
-                <div class="box">
-                    <img src="assets/img/gif/6.gif" height="247px" width="235px" alt="Image Description">
-                </div></li>
-            <li> <div class="bottom">Heading</div>
-                <div class="box">
-                    <img src="assets/img/gif/1.gif" height="247px" width="235px" alt="Image Description">
-                </div></li>
-            <li> <div class="bottom">Heading</div>
-                <div class="box">
-                    <img src="assets/img/gif/1.gif" height="247px" width="235px" alt="Image Description">
-                </div></li>
-
-        </ul>
+    <div aria-hidden="true" class="marquee-content">
+        <div class="marquee-text">contact</div>
+        <div class="marquee-text">·</div>
+        <div class="marquee-text">contact</div>
+        <div class="marquee-text">·</div>
+        <div class="marquee-text">contact</div>
+        <div class="marquee-text">·</div>
     </div>
+</div>
 
-
-
-</section>
-
-<section class="contact">
-    <div class="section-title">
-        <h2>GIVE ME A SHOUT</h2>
-    </div>
+<section class="contact" id="section-contacts">
     <div class="container contact-container">
-    </div>
-    <div class="contact-form">
-
-        <form>
-            <div class="form-field">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required />
-            </div>
-            <div class="form-field">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required />
-            </div>
-            <div class="form-field">
-                <label for="message">Message:</label>
-                <textarea
-                        id="message"
-                        name="message"
-                        rows="5"
-                        required
-                ></textarea>
-            </div>
-            <div class="form-field">
-                <input type="submit" value="Submit" />
-            </div>
-        </form>
-    </div>
-    </div>
-    <div class="slider">
-        <img src="assets/img/Message-595b40b65ba036ed117d44c1_1__2_-removebg-preview%20(1).png" alt="">
+        <div class="divider" data-aos="fade-up">
+            <h2>Interested in working with me?</h2>
+            <h4>
+                Let’s start a conversation! Drop your message below with some info
+                about your project...
+            </h4>
+        </div>
+        <div class="contact-form" data-aos="fade-up">
+            <img
+                    src="/assets/img/message.jpg"
+                    alt="Contact Image"
+                    class="contact-image"
+            />
+            <form>
+                <div class="form-field">
+                    <label for="name">Name:</label>
+                    <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            required
+                            class="form_style"
+                    />
+                </div>
+                <div class="form-field">
+                    <label for="email">Email:</label>
+                    <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            required
+                            class="form_style"
+                    />
+                </div>
+                <div class="form-field">
+                    <label for="message">Message:</label>
+                    <textarea
+                            id="message"
+                            name="message"
+                            rows="5"
+                            class="form_style"
+                            required
+                    ></textarea>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
     </div>
 </section>
 
 <footer>
     <div class="footer-left">
-        <img src="assets/img/logoblack.jpg" alt="Logo Black"   />
+
+        <a href="index.html">SANDU</a>
+
+    </div>
+    <div class="logo">
+        <a href="index.html">SANDU </a>
     </div>
     <div class="footer-middle">
         <a href="#">Top</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
+        <a href="#section-about">About</a>
+        <a href="#s">Services</a>
+        <a href="#section-contacts">Contact</a>
         <a href="#">+94 76 996 9290</a>
 
-
     </div>
-    <address>
-
-
-        <li><a href="Home"></a></li>
-        <li ><a href="tel:0761231290">0761231290</a></li>
-        <li><a href="mailto:thaa@gmail.com">thaa@gmail.com</a></li>
-
-
-
-    </address>
-    <address></address>
-    <address></address>
-
+    <!--    <div class="footer-right">-->
+    <!--        <div class="social-icons">-->
+    <!--            <a href="#"><i class="fa fa-linkedin"></i></a>-->
+    <!--            <a href="#"><i class="fa fa-github"></i></a>-->
+    <!--            <a href="#"><i class="fa fa-facebook"></i></a>-->
+    <!--        </div>-->
     <figure>
-        <a href=""><img src="assets/img/instagram.png" alt="" width="50"></a>
-        <a href=""><img src="assets/img/twitter.png" alt="" width="50"></a>
-        <a href=""><img src="assets/img/web.png" alt="" height="44" width="42"></a>
-        <a href=""><img src="assets/img/github.png" alt="" width="50"></a>
-        <a href=""><img src="assets/img/Linkedin.png" alt="" width="50"></a>
+        <a href="https://instagram.com/sandu.t.t?igshid=ZDdkNTZiNTM="><img src="assets/img/instagram.png" alt="" width="50"></a>
+        <a href="https://twitter.com/sanduni_t_"><img src="assets/img/twitter.png" alt="" width="50"></a>
+        <a href="http://localhost:63342/MyProtfolio/MyProfile/index2.html?_ijt=pskf78rvge1v5on3g7bdvpfsm0&_ij_reload=RELOAD_ON_SAVE#section-home"><img src="assets/img/web.png" alt="" height="45" width="42"></a>
+        <a href="https://github.com/Sandu-tt"><img src="assets/img/github.png" alt="" width="50"></a>
+        <a href="https://www.linkedin.com/in/sanduni-tharaka-545a8425a"><img src="assets/img/Linkedin.png" alt="" width="50"></a>
     </figure>
+    <p>&copy; Made With ❤️ By Sandu.</p>
+    </div>
 </footer>
-<p>&copy; Made With ❤️ By Sandu.</p>
-</div>
-</footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>
-

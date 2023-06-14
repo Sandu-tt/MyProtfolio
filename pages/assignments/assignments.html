@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignments</title>
+    <style>
+        html {
+            box-sizing: border-box;
+            font-family: "Open Sans", sans-serif;
+        }
+
+        body {
+            background-color: #ffc700;
+        }
+
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+
+        .background {
+            position: relative;
+            width: 100%;
+        }
+
+        .background::after {
+            content: "";
+            height: 350px;
+            left: 0;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            z-index: 1;
+        }
+
+        @media (min-width: 900px) {
+            .background {
+                padding: 0 0 25px;
+            }
+        }
+
+        .container {
+            margin: 0 auto;
+            padding: 50px 0 0;
+            max-width: 960px;
+            width: 100%;
+        }
+
+        .panel {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 15px 25px;
+            position: relative;
+            width: 100%;
+            margin-top: 50px;
+        }
+
+        .assignment-table {
+            border: black 1px solid;
+            display: flex;
+            flex-direction: column;
+        }
+
+        @media (min-width: 900px) {
+            .assignment-table {
+                flex-direction: row;
+            }
+        }
+
+        .assignment-table * {
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        .assignment-plan {
+            border-bottom: 1px solid #e1f1ff;
+            padding: 25px;
+        }
+
+        .assignment-plan:last-child {
+            border-bottom: none;
+        }
+
+        @media (min-width: 900px) {
+            .assignment-plan {
+                border-bottom: none;
+                border-right: 1px solid #e1f1ff;
+                flex-basis: 100%;
+                padding: 25px 50px;
+            }
+
+            .assignment-plan:last-child {
+                border-right: none;
+            }
+        }
+
+        .assignment-img {
+            margin-bottom: 25px;
+            max-width: 100%;
+            height: 100px;
+        }
+
+        .assignment-header {
+            color: #000000;
+            font-weight: 600;
+            letter-spacing: 1px;
+        }
+
+        .assignment-features {
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin: 50px 0 25px;
+            list-style-type: none;
+        }
+
+        .assignment-features-item {
+            border-top: 1px solid #e1f1ff;
+            font-size: 12px;
+            line-height: 1.5;
+            padding: 15px 0;
+        }
+
+        .button-show {
+            border: 1px solid #000000;
+            border-radius: 10px;
+            color: #000000;
+            display: inline-block;
+            margin: 25px 0;
+            padding: 15px 35px;
+            text-decoration: none;
+            transition: all 150ms ease-in-out;
+        }
+
+        .button-show:hover,
+        .button-show:focus {
+            background-color: #e1f1ff;
+        }
+    </style>
+    <link rel="stylesheet" href="../../css/styles.css" />
+</head>
+<body>
+<header class="header">
+    <nav>
+        <div class="logo">
+            <a href="index.html">SANDU</a>
+        </div>
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+        <ul class="menu">
+            <li><a href="http://localhost:63342/MyProtfolio/MyProfile/index.html?_ijt=qtqv71g3nvv4malnlss39hrbvk&_ij_reload=RELOAD_ON_SAVE#section-home">Home</a></li>
+            <li><a href="http://localhost:63342/MyProtfolio/MyProfile/index.html?_ijt=qtqv71g3nvv4malnlss39hrbvk&_ij_reload=RELOAD_ON_SAVE#section-about">About</a></li>
+            <li><a href="http://localhost:63342/MyProtfolio/MyProfile/index.html?_ijt=qtqv71g3nvv4malnlss39hrbvk&_ij_reload=RELOAD_ON_SAVE#section-skills">Services</a></li>
+            <li><a href="#section-projects">Projects</a></li>
+            <li><a href="#">Assignments</a></li>
+            <li><a href="http://localhost:63342/MyProtfolio/MyProfile/index.html?_ijt=qtqv71g3nvv4malnlss39hrbvk&_ij_reload=RELOAD_ON_SAVE#section-contacts">Contacts</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="background">
+    <div class="container">
+        <div class="panel assignment-table">
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/1.gif" width="168px"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 1</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">CSS-CASE01</li>
+                </ul>
+                <a
+                        href="https://github.com/Sandu-tt/CSS--Design"
+                        class="button-show"
+                >Show</a
+                >
+            </div>
+
+            <div class="assignment-plan">
+                <a href="https://siyum.me">
+                    <img
+                            src="/assets/img/gif/2.gif"
+                            alt=""
+                            class="assignment-img"
+                    />
+                </a>
+                <h2 class="assignment-header">Assignment 2</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">CSS-CASE02</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/css-Assignment" class="button-show"
+                >SHOW</a
+                >
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/3.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 3</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">CSS-CASE03</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/css-assignment-03" class="button-show"
+                >SHOW</a
+                >
+            </div>
+        </div>
+        <div class="panel assignment-table">
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/4.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 4</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">CSS-CASE04</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/css-assignment-04" class="button-show"
+                >SHOW</a
+                >
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/pages/assignments/img/ss1.png" height="106px" width="176px"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 5</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">CSS-CASE05</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/css-assignment-05" class="button-show">SHOW</a>
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/pages/assignments/img/ss2.png" height="106px" width="176px"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 6</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">CSS-CASE06</li>
+                </ul>
+                <a
+                        href="https://github.com/Sandu-tt/css-assignment-05/blob/main/case_06.html"
+                        class="button-show"
+                >SHOW</a
+                >
+            </div>
+        </div>
+
+        <div class="panel assignment-table">
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/7.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 7</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">ANIMATION CASE</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/Animation-Assignment02" class="button-show"
+                >SHOW</a
+                >
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/8.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 8</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">ANIMATION CASE</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/Animation-Assignment01" class="button-show">SHOW</a>
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/9.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 9</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">ANIMATION CASE</li>
+                </ul>
+                <a
+                        href="https://github.com/Sandu-tt/Assignment01"
+                        class="button-show"
+                >SHOW</a
+                >
+            </div>
+        </div>
+
+        <div class="panel assignment-table">
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/10.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 10</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">CAR ANIMATION</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/CSS-CarRider/tree/main/case_06" class="button-show"
+                >SHOW</a
+                >
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/11.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 11</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">KNIGHT RIDER</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/knight-rider-" class="button-show">SHOW</a>
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/pages/assignments/img/ss3.png"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 12</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">POS SYSTEM</li>
+                </ul>
+                <a
+                        href="https://github.com/Sandu-tt/POS-System/tree/main/pos-bootstrap"
+                        class="button-show"
+                >SHOW</a
+                >
+            </div>
+        </div>
+
+        <div class="panel assignment-table">
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/5.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 13</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">TRANSITION</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/Assignment-Trasitions" class="button-show"
+                >SHOW</a
+                >
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/6.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 14</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">TRANSITION</li>
+                </ul>
+                <a href="https://github.com/Sandu-tt/Transitions-Assignment02" class="button-show">SHOW</a>
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="/assets/img/gif/12.gif"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 15</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">QUEUE</li>
+                </ul>
+                <a
+                        href="https://github.com/Sandu-tt/Queue/tree/main/queue"
+                        class="button-show"
+                >SHOW</a
+                >
+            </div>
+        </div>
+
+
+        <div class="panel assignment-table">
+            <div class="assignment-plan">
+                <img
+                        src="/pages/assignments/img/ss4.png" height="104px" width="173px"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 16</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">FIGMA DESIGN</li>
+                </ul>
+                <a
+                        href="https://www.figma.com/file/PjbW8zXIHTRm13YJctWW0L/Protfolio?type=design&node-id=10-11&t=Kx4LkMaBhCxLrmwk-0"
+                        class="button-show"
+                >SHOW</a
+                >
+            </div>
+
+            <div class="assignment-plan">
+                <img
+                        src="./img/cal.png"
+                        alt=""
+                        class="assignment-img"
+                />
+                <h2 class="assignment-header">Assignment 17</h2>
+                <ul class="assignment-features">
+                    <li class="assignment-features-item">CALCULATOR</li>
+                </ul>
+                <a
+                        href="https://github.com/Sandu-tt/js-calculator"
+                        class="button-show"
+                >SHOW</a
+                >
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
