@@ -2,31 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WEB POS</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport">
-    <style>
-        * {
-            font-family: 'Titillium Web', sans-serif;
-        }
-
-        .icon {
-            width: 75px;
-            height: 75px;
-            top: 10px;
-            left: 10px;
-        }
-    </style>
-    <link rel="stylesheet" href="assets/css/bootstrap.css">
-
+    <title>Order Form</title>
+    <link rel="stylesheet" href="../assets/css/bootstrap.css">
 </head>
-
 <body>
+
 <header>
-    <!--nav bar-->
     <nav class="navbar navbar-expand-lg bg-body-tertiary shadow p-3 mb-2 bg-body-tertiary rounded">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
-                <img alt="Logo" class="d-inline-block align-text-center" height="32" src="assets/IMG/logo.webp"
+                <img alt="Logo" class="d-inline-block align-text-center" height="32" src="../assets/IMG/logo.webp"
                      width="32">  <span class="text-danger">WEBPOS</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,17 +19,17 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto">
-                    <li id="home" class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
-                    <li id="customer" class="nav-item">
-                        <a class="nav-link" href="#">Customer</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="customer.html">Customer</a>
                     </li>
-                    <li id="items" class="nav-item">
-                        <a class="nav-link" href="#">Items</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="item.html">Items</a>
                     </li>
-                    <li id="orders" class="nav-item">
-                        <a class="nav-link" href="#">Orders</a>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">PlaceOrder</a>
                     </li>
                 </ul>
                 <div class="d-grid gap-3 d-md-flex justify-content-md-end">
@@ -56,170 +41,7 @@
     </nav>
 </header>
 
-<!--dashboard-->
-<main class="container-fluid mt-5" id="homePage">
-
-    <section class="row  p-5 m-4 bg-secondary-subtle">
-
-        <!--1st card-->
-
-        <div class="row gap-2 p-2">
-            <div class="col col">
-                <div class="p-3 content">
-                    <img class="content-img" src="assets/IMG/avator.jpeg">
-                    <h3 class="div-title fw-semibold">Total Employees</h3>
-                    <h4 class="fw-bold content-text">25</h4>
-                    <div class="border-bottom border-2 p-1"></div>
-                </div>
-            </div>
-            <div class="col col">
-                <div class="p-3 content">
-                    <img class="content-img" src="assets/IMG/iwatch.jpeg">
-                    <h3 class="div-title fw-semibold">Total Items</h3>
-                    <h4 class="fw-bold content-text">1,320</h4>
-                    <div class="border-bottom border-2 p-1"></div>
-                </div>
-            </div>
-            <div class="col col">
-                <div class="p-3 content">
-                    <img class="content-img" src="assets/IMG/img.png" width="300px" height="260px">
-                    <h3 class="div-title fw-semibold">New Customers</h3>
-                    <h4 class="fw-bold content-text">100</h4>
-                    <div class="border-bottom border-2 p-1"></div>
-                </div>
-            </div>
-        </div>
-        </div>
-
-
-    </section>
-
-</main>
-
-<!--Customer Page-->
-<main class="container" id="customerPage">
-
-    <!--Customer Form and Buttons-->
-    <section class="row mt-4 d-flex justify-content-between">
-
-        <!--Customer Form-->
-        <div class="col-6">
-
-            <h2 class="fw-bold text-start mb-3">Customer Form</h2>
-
-            <form>
-                <div class="mb-3">
-                    <label for="customerName" class="form-label">Customer Name</label>
-                    <input type="text" class="form-control" id="customerName" aria-describedby="emailHelp">
-                </div>
-                <div class="mb-3">
-                    <label for="addressCus" class="form-label">Address</label>
-                    <input type="text" class="form-control" id="addressCus">
-                </div>
-                <div class="mb-3">
-                    <label for="nicCus" class="form-label">NIC</label>
-                    <input type="text" class="form-control" id="nicCus">
-                </div>
-                <div class="mb-3">
-                    <label for="tpNo" class="form-label">Tele No</label>
-                    <input type="number" class="form-control" id="tpNo">
-                </div>
-            </form>
-
-        </div>
-
-        <!--Buttons-->
-        <div class="col-4 mt-5">
-            <button type="button" class="btn btn-outline-primary btn-lg d-grid  col-8 mb-3 ">Save Customer</button>
-            <button type="button" class="btn btn-outline-success btn-lg d-grid col-8 mb-3">Delete Customer</button>
-            <button type="button" class="btn btn-outline-danger btn-lg d-grid  col-8 mb-3">Update Customer</button>
-            <button type="button" class="btn btn-outline-warning btn-lg d-grid  col-8 mb-3">Get All</button>
-        </div>
-
-    </section>
-
-    <!--Customer Table-->
-    <section class="row container-fluid">
-        <table class="table table-bordered border-primary">
-            <thead class="table-primary">
-            <tr>
-                <th>Customer Name</th>
-                <th>Customer Address</th>
-                <th>Customer NIC</th>
-                <th>Contact</th>
-            </tr>
-            </thead>
-
-            <tbody></tbody>
-
-        </table>
-    </section>
-
-</main>
-
-<!--Item page-->
-<main class="container" id="itemPage">
-
-    <!--Item Form and Buttons-->
-    <section class="row mt-4 d-flex justify-content-between">
-
-        <!--Item Form-->
-        <div class="col-6">
-
-            <h2 class="fw-bold text-start mb-3">Item Form</h2>
-
-            <form>
-                <div class="mb-3">
-                    <label for="itemCode1" class="form-label">Item Code</label>
-                    <input type="text" class="form-control" id="itemCode1">
-                </div>
-                <div class="mb-3">
-                    <label for="itemName1" class="form-label">Item Name</label>
-                    <input type="text" class="form-control" id="itemName1">
-                </div>
-                <div class="mb-3">
-                    <label for="price" class="form-label">Unit Price</label>
-                    <input type="text" class="form-control" id="price">
-                </div>
-                <div class="mb-3">
-                    <label for="qty" class="form-label">Qty On Hand</label>
-                    <input type="number" class="form-control" id="qty">
-                </div>
-            </form>
-
-        </div>
-
-        <!--Buttons-->
-        <div class="col-4 mt-5">
-            <button type="button" class="btn btn-outline-primary btn-lg d-grid  col-8 mb-3 ">Save Item</button>
-            <button type="button" class="btn btn-outline-success btn-lg d-grid col-8 mb-3">Delete Item</button>
-            <button type="button" class="btn btn-outline-danger btn-lg d-grid  col-8 mb-3">Update Item</button>
-            <button type="button" class="btn btn-outline-warning btn-lg d-grid  col-8 mb-3">Get All</button>
-        </div>
-
-    </section>
-
-    <!--Item Table-->
-    <section class="row container-fluid">
-        <table class="table table-bordered border-primary">
-            <thead class="table-primary">
-            <tr>
-                <th>Item Code</th>
-                <th>Item Name</th>
-                <th>Unit Price</th>
-                <th>Qty On Hand</th>
-            </tr>
-            </thead>
-
-            <tbody></tbody>
-
-        </table>
-    </section>
-
-</main>
-
-<!--Order page-->
-<main class="container-fluid p-3" id="orderPage">
+<main class="container-fluid p-3">
 
     <!--Order details-->
     <section class="row bg-secondary-subtle p-4 justify-content-evenly">
@@ -393,10 +215,6 @@
     </section>
 
 </main>
-
-
-<script src="assets/js/bootstrap.js"></script>
-<script src="controller/controller.js"></script>
 
 </body>
 </html>
