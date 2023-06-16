@@ -1,36 +1,58 @@
-document.addEventListener("DOMContentLoaded", function () {
-    document.getElementById("homePage").style.display = 'inline-block';
-    document.getElementById("customerPage").style.display = 'none';
-    document.getElementById("itemPage").style.display = 'none';
-    document.getElementById("orderPage").style.display = 'none';
+$(document).ready(function () {
+    $("#HomeSection").css('display', 'block');
+    $("#CustomerSection").css('display', 'none');
+    $("#ItemSection").css('display', 'none');
+    $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'none');
 });
 
-document.getElementById("home").addEventListener("click", function () {
-    document.getElementById("homePage").style.display = 'block';
-    document.getElementById("customerPage").style.display = 'none';
-    document.getElementById("itemPage").style.display = 'none';
-    document.getElementById("orderPage").style.display = 'none';
+$("#homeBtn").click(function () {
+    $("#HomeSection").css('display', 'block');
+    $("#CustomerSection").css('display', 'none');
+    $("#ItemSection").css('display', 'none');
+    $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'none');
 });
 
-document.getElementById("items").addEventListener("click", function () {
-    document.getElementById("homePage").style.display = 'none';
-    document.getElementById("customerPage").style.display = 'none';
-    document.getElementById("itemPage").style.display = 'block';
-    document.getElementById("orderPage").style.display = 'none';
+$("#customerBtn").click(function () {
+    $("#HomeSection").css('display', 'none');
+    $("#CustomerSection").css('display', 'block');
+    $("#ItemSection").css('display', 'none');
+    $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'none');
+
+    $("#txtCustomerId").val(generateCustomerID());
 });
 
-document.getElementById("customer").addEventListener("click", function () {
-    document.getElementById("homePage").style.display = "none";
-    document.getElementById("customerPage").style.display = 'block';
-    document.getElementById("itemPage").style.display = 'none';
-    document.getElementById("orderPage").style.display = 'none';
+$("#itemBtn").click(function () {
+    $("#HomeSection").css('display', 'none');
+    $("#CustomerSection").css('display', 'none');
+    $("#ItemSection").css('display', 'block');
+    $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'none');
+
+    $("#txtItemsId").val(generateItemID());
+
 });
 
-document.getElementById("orders").addEventListener("click", function () {
-    document.getElementById("homePage").style.display = 'none';
-    document.getElementById("customerPage").style.display = 'none';
-    document.getElementById("itemPage").style.display = 'none';
-    document.getElementById("orderPage").style.display = 'block';
+$("#orderBtn").click(function () {
+    $("#HomeSection").css('display', 'none');
+    $("#CustomerSection").css('display', 'none');
+    $("#ItemSection").css('display', 'none');
+    $("#OrderSection").css('display', 'block');
+    $("#OrderDetails").css('display', 'none');
+
+    $("#orderId").val( generateOrderID());
+    setCurrentDate();
 });
 
+$("#orderDetailsBtn").click(function () {
+    $("#HomeSection").css('display', 'none');
+    $("#CustomerSection").css('display', 'none');
+    $("#ItemSection").css('display', 'none');
+    $("#OrderSection").css('display', 'none');
+    $("#OrderDetails").css('display', 'block');
 
+    loadAllOrders();
+    loadAllOrderDetails();
+});
