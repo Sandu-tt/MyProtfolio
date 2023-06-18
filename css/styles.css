@@ -7,6 +7,9 @@
 html {
     scroll-behavior: smooth;
 }
+button {
+    cursor: pointer;
+}
 
 body {
     display: flex;
@@ -207,6 +210,44 @@ nav {
 }
 
 /* ================================  Start of home section ================================ */
+
+.section-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.section-icons a:hover {
+    transform: scale(1.2);
+}
+
+.section-text h1,
+.section-text h2 {
+    transition: transform 0.3s;
+}
+
+.section-text h1:hover,
+.section-text h2:hover {
+    animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-10px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(-5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
 
 .hero-button {
     background-color: #ffffff;
@@ -419,6 +460,36 @@ nav {
     color: #b07219;
 }
 
+
+/* Style the button */
+.about-me-button {
+    display: flex;
+    position: relative;
+    padding: 15px;
+    /*left: 570px;*/
+    align-items: center;
+    justify-content: center;
+    background-color: #d2ce4c;
+    color: #1c1c0b;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    letter-spacing: 0.1rem;
+    margin-right: 40px;
+    width: 100px;
+    text-decoration: none;
+    margin: 0;
+}
+
+
+/* Change the button color on hover */
+.about-me-button:hover {
+    background-color: rgba(255, 255, 0, 0.53);
+
+
+}
 /* About Section Responsive */
 
 @media only screen and (max-width: 950px) {
@@ -646,7 +717,7 @@ nav {
 
 .divider {
     width: 100%;
-    background-color: #0ff2bc;
+    background-color:  #ffff80;
     height: 100px;
     border: #000 2px solid;
     align-items: center;
@@ -690,7 +761,7 @@ textarea {
 }
 
 input[type="submit"] {
-    background-color: #0ff2bc;
+    background-color:  #ffff80;
     color: white;
     border: #000 2px solid;
     padding: 10px;
