@@ -391,6 +391,11 @@ nav {
 .section-about {
     padding: 20px;
     background:  #f9ed9f;
+    position: relative;
+    z-index: 0;
+    overflow: visible;
+    padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 .about-container {
@@ -539,7 +544,13 @@ nav {
     box-shadow: 0.4rem 0.4rem #05060f;
     overflow: hidden;
 }
-
+.skill-card {
+    transition: transform 0.3s;
+}
+/******/
+.skill-card:hover {
+    transform: scale(1.2);
+}
 .skill-block-content {
     display: flex;
     height: 100%;
@@ -602,7 +613,7 @@ nav {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-image: url("../img/y&b.jpg");
+    /*background-image: url("../img/y&b.jpg");*/
 }
 
 .section-title {
