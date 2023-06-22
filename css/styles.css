@@ -326,7 +326,8 @@ nav {
 
 @media only screen and (max-width: 950px) {
     .section-home {
-        height: 100vh;
+        /*height: 100vh;*/
+        height: 100%;
     }
 
     .section-content {
