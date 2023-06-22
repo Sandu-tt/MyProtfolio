@@ -608,6 +608,11 @@ nav {
 
 /* ================================ Projects Section ================================ */
 /* Resume Section */
+@media all and (max-width:950px) and (min-width:350px){
+    #resume{
+        display: none;
+    }
+}
 .resume {
     display: flex;
     flex-direction: row;
@@ -714,7 +719,7 @@ nav {
     margin-top: 5px;
 }
 
-/*================projects============================*/
+
 
 /* ================================ Contact Section ================================ */
 
