@@ -172,7 +172,7 @@ nav {
     transform: scaleY(1);
 }
 
-/* Header Section Responsive */
+/* =======================Header Section Responsive ==============================================*/
 
 @media only screen and (max-width: 950px) {
     .menu {
@@ -322,7 +322,7 @@ nav {
     color: white;
 }
 
-/* Home Section Responsive */
+/* =============================Home Section Responsive ===========================*/
 
 @media only screen and (max-width: 950px) {
     .section-home {
@@ -387,7 +387,7 @@ nav {
     }
 }
 
-/* ================================ Start Of About Section ================================ */
+/* ================================  About Section ================================ */
 
 .section-about {
     padding: 20px;
@@ -446,25 +446,6 @@ nav {
     margin: 10px;
 }
 
-.fa-js-square {
-    color: #f7df1e;
-}
-
-.fa-react {
-    color: #61dafb;
-}
-
-.fa-node-js {
-    color: #3c873a;
-}
-
-.fa-python {
-    color: #3572a5;
-}
-
-.fa-java {
-    color: #b07219;
-}
 
 
 /* Style the button */
@@ -516,7 +497,7 @@ nav {
     }
 }
 
-/* ================================ Start of skills section ================================ */
+/* ================================  skills section ================================ */
 
 .section-skills {
     background-color:  	 #9494b8;
@@ -808,7 +789,7 @@ input[type="submit"] {
     font-size: 15px;
 }
 
-/* Contact Form Responsive */
+/* ========================Contact Form Responsive========================== */
 
 @media only screen and (min-width: 768px) {
     .contact-image {
