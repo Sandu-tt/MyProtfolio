@@ -50,6 +50,31 @@
             crossorigin="anonymous"
     />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style>
+        #loader {
+            transition: opacity 1s;
+            position: fixed;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background: black;
+        }
+
+        #loader > div {
+            width: 300px;
+            height: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            background: url("assets/img/Spinning-Wheel.gif");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
 </head>
 
 
@@ -67,6 +92,10 @@
 <!--    </section>-->
 
 <header class="header">
+
+    <div id="loader">
+        <div></div>
+    </div>
     <nav>
         <div class="logo">
             <a href="index.html">SANDU</a>
