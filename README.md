@@ -9,9 +9,17 @@ MokeUp - https://www.figma.com/file/PjbW8zXIHTRm13YJctWW0L/Protfolio?type=design
   Technology & Framework
 
   HTML
+
+
   CSS
+
+  
   JAVASCRIPT
+
+  
   BOOTSRAP
+
+  
   Jquery
 
 
