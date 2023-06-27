@@ -4,6 +4,15 @@
     list-style: none;
 }
 
+/*#loader {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    height: 100vh;*/
+/*    background: black url("../assets/img/Spinning-Wheel.gif") no-repeat center;*/
+/*    z-index: 99999;*/
+
+/*}*/
+
 html {
     scroll-behavior: smooth;
 }
