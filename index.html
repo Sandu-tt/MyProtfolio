@@ -52,7 +52,7 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <style>
         #loader {
-            transition: opacity 1s;
+            transition: opacity 5s;
             position: fixed;
             top: 0;
             left: 0;
@@ -70,7 +70,7 @@
             bottom: 0;
             right: 0;
             margin: auto;
-            background: url("assets/img/Spinning-Wheel.gif");
+            background: url("assets/img/loader.gif");
             background-size: cover;
             background-position: center;
         }
@@ -79,23 +79,12 @@
 
 
 <body>
-
-<!--Header sectioning -->
-<!--<header>-->
-<!--    &lt;!&ndash;    loader&ndash;&gt;-->
-<!--    <section id="loader">-->
-<!--        <div class="scan">-->
-<!--            <div class="qrcode"></div>-->
-<!--            <h3>Loading...</h3>-->
-<!--            <div class="border"></div>-->
-<!--        </div>-->
-<!--    </section>-->
+<div id="loader">
+    <div></div>
+</div>
 
 <header class="header">
 
-    <div id="loader">
-        <div></div>
-    </div>
     <nav>
         <div class="logo">
             <a href="index.html">SANDU</a>
@@ -125,9 +114,7 @@
             <h2>I’M developer,web designer &</h2>
             <h2>UI/UX designer</h2>
             <a href="mailto:tharakasanu80@gmail.com"
-            ><button class="hero-button">Let's Chat</button></a
-            >
-<!--            <button class="hero-button">Let's Chat</button>-->
+            ><button class="hero-button">Let's Chat</button></a>
             <div class="section-icons">
                 <a href="https://www.linkedin.com/in/sanduni-tharaka-545a8425a">
                     <i class="fa fa-linkedin"></i></a>
@@ -477,6 +464,20 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
+</script>
+
+<script>
+
+    let loader = document.getElementById("loader");
+    //this is it. this will execute after the window is fully loaded
+    window.addEventListener("load", function () {
+        console.log("This message will print just after fully loading the website")
+
+        //hide the loader
+        loader.style.display = 'none';
+    });
+
+
 </script>
 </body>
 </html>
