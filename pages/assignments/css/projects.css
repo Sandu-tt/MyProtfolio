@@ -91,6 +91,7 @@
     .slider {
         width: 100px;
         height: 100px;
+        left: -80px;
     }
 
     .slider span {
